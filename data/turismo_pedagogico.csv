@@ -1,0 +1,50 @@
+ano,atrativo,visitacao_total,visitacao_escolar,visitacao_nao_escolar,pct_escolar,fonte_relatorio,fonte_pagina,fonte_tabela
+2015,Museu Imperial,,,,16.31,2015,5,T4
+2015,Museu Casa de Santos Dumont,,,,23.17,2015,5,T4
+2015,Museu Casa do Colono,,,,67.89,2015,5,T4
+2015,Palácio Rio Negro,,,,6.47,2015,5,T4
+2016,Museu Imperial,,,,15.84,2016,5,T4
+2016,Museu Casa de Santos Dumont,,,,21.52,2016,5,T4
+2016,Museu Casa do Colono,,,,68.78,2016,5,T4
+2017,Museu Imperial,350073,53644,296429,15.32,2017,3,T3
+2017,Museu Casa de Santos Dumont,172207,35813,136394,20.8,2017,3,T3
+2017,Museu Casa do Colono,16178,10187,5991,62.97,2017,3,T3
+2017,Palácio Rio Negro,56660,3258,53402,5.75,2017,3,T3
+2018,Museu Imperial,344862,57686,287176,16.73,2018,3,T3
+2018,Museu Casa de Santos Dumont,161215,42074,119141,26.1,2018,3,T3
+2018,Museu Casa do Colono,19640,12912,6728,65.74,2018,3,T3
+2018,Palácio Rio Negro,52185,2658,49527,5.09,2018,3,T3
+2018,Igreja de Confissão Luterana,3486,224,3262,6.43,2018,3,T3
+2019,Museu Imperial,392753,61208,331545,15.58,2019,3,T3
+2019,Museu Casa de Santos Dumont,185921,59866,126055,32.2,2019,3,T3
+2019,Museu Casa do Colono,24298,17709,6589,72.88,2019,3,T3
+2019,Palácio Rio Negro,18405,4496,13909,24.43,2019,3,T3
+2019,Igreja de Confissão Luterana,4022,559,3463,13.9,2019,3,T3
+2020,Museu Imperial,47064,1457,45607,3.1,2020,3,T3
+2020,Museu Casa de Santos Dumont,35720,126,35594,0.35,2020,3,T3
+2020,Palácio Rio Negro,8062,0,8062,0.0,2020,3,T3
+2020,Museu Casa do Colono,2466,440,2026,17.84,2020,3,T3
+2020,Igreja de Confissão Luterana,418,0,418,0.0,2020,3,T3
+2021,Museu Imperial,160486,1951,158535,1.22,2021,16,T11
+2021,Museu Casa de Santos Dumont,76324,1102,75222,1.44,2021,16,T11
+2021,Museu Casa do Colono,8072,1005,7067,12.45,2021,16,T11
+2021,Igreja de Confissão Luterana,383,32,351,8.36,2021,16,T11
+2022,Museu Imperial,204862,21978,182884,10.73,2022,33,Tabela 15
+2022,Museu Casa de Santos Dumont,90077,14838,75239,16.47,2022,33,Tabela 15
+2022,Museu Casa do Colono,10231,6643,3588,64.93,2022,33,Tabela 15
+2022,Casa Stefan Zweig,1938,549,1389,28.33,2022,33,Tabela 15
+2022,Igreja de Confissão Luterana,253,0,253,0.0,2022,33,Tabela 15
+2023,Museu Imperial,323633,46357,277276,14.32,2023,33,T19
+2023,Museu Casa de Santos Dumont,84479,22977,61502,27.2,2023,33,T19
+2023,Museu Casa do Colono,19359,13772,5587,71.14,2023,33,T19
+2023,Casa Stefan Zweig,3925,467,3458,11.9,2023,33,T19
+2024,Museu Imperial,315581,45346,270235,14.37,2024,15,T8
+2024,Museu Casa de Santos Dumont,143430,33345,110085,23.25,2024,15,T8
+2024,Museu Casa do Colono,15064,10020,5044,66.52,2024,15,T8
+2024,Casa Stefan Zweig,3908,955,2953,24.44,2024,15,T8
+2024,Igreja de Confissão Luterana,1770,104,1666,5.88,2024,15,T8
+2025,Museu Imperial,342547,45506,297041,13.28,2025,3,T4
+2025,Museu Casa de Santos Dumont,153946,34135,119811,22.17,2025,3,T4
+2025,Museu Casa do Colono,16234,12054,4180,74.25,2025,3,T4
+2025,Casa Stefan Zweig,4888,1438,3450,29.42,2025,3,T4
+2025,Igreja de Confissão Luterana,2554,151,2403,5.91,2025,3,T4

@@ -1,0 +1,159 @@
+ano,atrativo,categoria,ancora,visitantes,origem_valor,confere,meses_com_dado,fonte_relatorio,fonte_pagina,fonte_tabela
+2015,Museu Imperial,Histórico-cultural,True,375986,soma dos meses,sim,12,2015,2,T1
+2015,PARNASO – total das 3 sedes,Natural,False,217372,soma dos meses,sim,12,2015,2,T1
+2015,Museu Casa de Santos Dumont,Histórico-cultural,True,194945,soma dos meses,sim,12,2015,2,T1
+2015,Centro de Experiência Cervejeira Bohemia,Histórico-cultural,True,108264,soma dos meses,sim,12,2015,2,T1
+2015,PARNASO – sede Petrópolis,Natural,False,44341,soma dos meses,sim,12,2015,2,T1
+2015,Palácio Rio Negro,Histórico-cultural,False,35869,soma dos meses,sim,12,2015,2,T1
+2015,Som e Luz,Entretenimento cultural,False,30251,soma dos meses,sim,12,2015,2,T1
+2015,Museu Casa do Colono,Histórico-cultural,True,14536,soma dos meses,sim,12,2015,2,T1
+2015,Centro Cultural Estação Nogueira,Histórico-cultural,True,3765,soma dos meses,sim,12,2015,2,T1
+2015,Casa Stefan Zweig,Histórico-cultural,True,1982,soma dos meses,sim,12,2015,2,T1
+2016,Museu Imperial,Histórico-cultural,True,321396,soma dos meses,sim,12,2016,2,T1
+2016,PARNASO – total das 3 sedes,Natural,False,162828,soma dos meses,sim,12,2016,2,T1
+2016,Museu Casa de Santos Dumont,Histórico-cultural,True,160804,soma dos meses,sim,12,2016,2,T1
+2016,Centro de Experiência Cervejeira Bohemia,Histórico-cultural,True,73149,soma dos meses,sim,12,2016,2,T1
+2016,PARNASO – sede Petrópolis,Natural,False,40499,soma dos meses,sim,12,2016,2,T1
+2016,Som e Luz,Entretenimento cultural,False,23266,soma dos meses,sim,12,2016,2,T1
+2016,Museu Casa do Colono,Histórico-cultural,True,14799,soma dos meses,sim,12,2016,2,T1
+2016,Palácio Amarelo (Câmara Municipal),Histórico-cultural,False,8121,soma dos meses,sim,12,2016,2,T1
+2016,Um Sarau Imperial,Entretenimento cultural,False,5603,soma dos meses,sim,12,2016,2,T1
+2016,Centro Cultural Estação Nogueira,Histórico-cultural,True,3640,soma dos meses,sim,12,2016,2,T1
+2016,Palácio Rio Negro,Histórico-cultural,False,2568,soma dos meses,sim,12,2016,2,T1
+2016,Casa Stefan Zweig,Histórico-cultural,True,1770,soma dos meses,sim,12,2016,2,T1
+2017,Museu Imperial,Histórico-cultural,True,350073,soma dos meses,sim,12,2017,2,T1
+2017,Museu Casa de Santos Dumont,Histórico-cultural,True,172207,soma dos meses,sim,12,2017,2,T1
+2017,PARNASO – total das 3 sedes,Natural,False,150091,soma dos meses,sim,12,2017,2,T1
+2017,Centro de Experiência Cervejeira Bohemia,Histórico-cultural,True,82916,soma dos meses,sim,12,2017,2,T1
+2017,Palácio Rio Negro,Histórico-cultural,False,57342,soma dos meses,sim,12,2017,2,T1
+2017,PARNASO – sede Petrópolis,Natural,False,42021,soma dos meses,sim,12,2017,2,T1
+2017,Som e Luz,Entretenimento cultural,False,24666,soma dos meses,sim,12,2017,2,T1
+2017,Museu Casa do Colono,Histórico-cultural,True,16178,soma dos meses,sim,12,2017,2,T1
+2017,Um Sarau Imperial,Entretenimento cultural,False,11521,soma dos meses,sim,12,2017,2,T1
+2017,Palácio Amarelo (Câmara Municipal),Histórico-cultural,False,4074,soma dos meses,sim,12,2017,2,T1
+2017,Centro Cultural Estação Nogueira,Histórico-cultural,True,2523,soma dos meses,sim,12,2017,2,T1
+2017,Casa Stefan Zweig,Histórico-cultural,True,2518,soma dos meses,sim,12,2017,2,T1
+2018,Museu Imperial,Histórico-cultural,True,344862,soma dos meses,sim,12,2018,2,T1
+2018,Museu Casa de Santos Dumont,Histórico-cultural,True,161215,soma dos meses,sim,12,2018,2,T1
+2018,PARNASO – total das 3 sedes,Natural,False,147641,soma dos meses,sim,12,2018,2,T1
+2018,Centro de Experiência Cervejeira Bohemia,Histórico-cultural,True,71401,soma dos meses,sim,12,2018,2,T1
+2018,Palácio Rio Negro,Histórico-cultural,False,52185,soma dos meses,sim,11,2018,2,T1
+2018,PARNASO – sede Petrópolis,Natural,False,20887,soma dos meses,sim,12,2018,2,T1
+2018,Som e Luz,Entretenimento cultural,False,20072,soma dos meses,sim,12,2018,2,T1
+2018,Museu Casa do Colono,Histórico-cultural,True,19640,soma dos meses,sim,12,2018,2,T1
+2018,Um Sarau Imperial,Entretenimento cultural,False,17605,soma dos meses,sim,12,2018,2,T1
+2018,Palácio Amarelo (Câmara Municipal),Histórico-cultural,False,6066,soma dos meses,sim,12,2018,2,T1
+2018,Igreja de Confissão Luterana,Histórico-cultural,False,3486,soma dos meses,sim,12,2018,2,T1
+2018,Centro Cultural Estação Nogueira,Histórico-cultural,True,2698,soma dos meses,sim,12,2018,2,T1
+2018,Casa Stefan Zweig,Histórico-cultural,True,2362,soma dos meses,sim,12,2018,2,T1
+2019,Museu Imperial,Histórico-cultural,True,392753,soma dos meses,sim,12,2019,2,T1
+2019,PARNASO – total das 3 sedes,Natural,False,196230,soma dos meses,sim,12,2019,2,T1
+2019,Museu Casa de Santos Dumont,Histórico-cultural,True,185921,soma dos meses,sim,12,2019,2,T1
+2019,Centro de Experiência Cervejeira Bohemia,Histórico-cultural,True,68485,soma dos meses,sim,12,2019,2,T1
+2019,PARNASO – sede Petrópolis,Natural,False,24504,soma dos meses,sim,12,2019,2,T1
+2019,Museu Casa do Colono,Histórico-cultural,True,24298,soma dos meses,sim,12,2019,2,T1
+2019,Som e Luz,Entretenimento cultural,False,20096,soma dos meses,sim,12,2019,2,T1
+2019,Palácio Rio Negro,Histórico-cultural,False,18405,soma dos meses,sim,10,2019,2,T1
+2019,Um Sarau Imperial,Entretenimento cultural,False,15128,soma dos meses,sim,12,2019,2,T1
+2019,Palácio Amarelo (Câmara Municipal),Histórico-cultural,False,12442,soma dos meses,sim,12,2019,2,T1
+2019,Igreja de Confissão Luterana,Histórico-cultural,False,4022,soma dos meses,sim,12,2019,2,T1
+2019,Centro Cultural Estação Nogueira,Histórico-cultural,True,3699,soma dos meses,sim,12,2019,2,T1
+2019,Casa Stefan Zweig,Histórico-cultural,True,2539,soma dos meses,sim,12,2019,2,T1
+2020,Museu Imperial,Histórico-cultural,True,47064,soma dos meses,sim,3,2020,2,T1
+2020,PARNASO – total das 3 sedes,Natural,False,43432,soma dos meses,sim,7,2020,2,T1
+2020,Museu Casa de Santos Dumont,Histórico-cultural,True,35720,soma dos meses,sim,6,2020,2,T1
+2020,Centro de Experiência Cervejeira Bohemia,Histórico-cultural,True,10289,soma dos meses,sim,3,2020,2,T1
+2020,Palácio Rio Negro,Histórico-cultural,False,8062,soma dos meses,sim,3,2020,2,T1
+2020,PARNASO – sede Petrópolis,Natural,False,3887,soma dos meses,sim,7,2020,2,T1
+2020,Museu Casa do Colono,Histórico-cultural,True,2466,soma dos meses,sim,6,2020,2,T1
+2020,Som e Luz,Entretenimento cultural,False,1851,soma dos meses,sim,3,2020,2,T1
+2020,Um Sarau Imperial,Entretenimento cultural,False,1523,soma dos meses,sim,3,2020,2,T1
+2020,Palácio Amarelo (Câmara Municipal),Histórico-cultural,False,1286,soma dos meses,sim,3,2020,2,T1
+2020,Casa de Petrópolis – Instituto de Cultura,Histórico-cultural,False,769,soma dos meses,sim,1,2020,2,T1
+2020,Casa Stefan Zweig,Histórico-cultural,True,690,soma dos meses,sim,4,2020,2,T1
+2020,Centro Cultural Estação Nogueira,Histórico-cultural,True,581,soma dos meses,sim,3,2020,2,T1
+2020,Igreja de Confissão Luterana,Histórico-cultural,False,418,soma dos meses,sim,6,2020,2,T1
+2020,Concertos/Recitais – Casa de Petrópolis,Entretenimento cultural,False,88,soma dos meses,sim,1,2020,2,T1
+2021,Museu Imperial,Histórico-cultural,True,160486,soma dos meses,sim,11,2021,2,T1
+2021,PARNASO – total das 3 sedes,Natural,False,109006,soma dos meses,sim,12,2021,4,T4
+2021,Museu Casa de Santos Dumont,Histórico-cultural,True,87414,soma dos meses,sim,11,2021,2,T1
+2021,PARNASO – sede Teresópolis,Natural,False,73364,soma dos meses,sim,11,2021,4,T4
+2021,Parque Crèmerie,Natural,False,63203,soma dos meses,sim,7,2021,4,T4
+2021,Centro de Experiência Cervejeira Bohemia,Histórico-cultural,True,56115,soma dos meses,sim,12,2021,2,T1
+2021,PARNASO – sede Guapimirim,Natural,False,19928,soma dos meses,sim,10,2021,4,T4
+2021,Casa de Petrópolis – Instituto de Cultura,Histórico-cultural,False,19341,soma dos meses,sim,12,2021,2,T1
+2021,PARNASO – sede Petrópolis,Natural,False,15714,soma dos meses,sim,12,2021,4,T4
+2021,Museu Casa do Colono,Histórico-cultural,True,8072,soma dos meses,sim,11,2021,2,T1
+2021,Casa Stefan Zweig,Histórico-cultural,True,3404,soma dos meses,sim,7,2021,2,T1
+2021,Centro Cultural Estação Nogueira,Histórico-cultural,True,2598,soma dos meses,sim,11,2021,2,T1
+2021,Concertos/Recitais – Casa de Petrópolis,Entretenimento cultural,False,952,soma dos meses,sim,11,2021,3,T3
+2021,Igreja de Confissão Luterana,Histórico-cultural,False,414,soma dos meses,sim,11,2021,2,T1
+2022,Museu Imperial,Histórico-cultural,True,204862,total publicado (OCR),sim,12,2022,4,Quadro 1
+2022,PARNASO – total das 3 sedes,Natural,False,177770,total publicado (OCR),sim,12,2022,4,Quadro 1
+2022,PARNASO – sede Teresópolis,Natural,False,119247,total publicado (OCR),sim,12,2022,4,Quadro 1
+2022,Museu Casa de Santos Dumont,Histórico-cultural,True,90077,total publicado (OCR),sim,12,2022,4,Quadro 1
+2022,Parque Crèmerie,Natural,False,66600,total publicado (OCR),sim,11,2022,4,Quadro 1
+2022,Centro de Experiência Cervejeira Bohemia,Histórico-cultural,True,36890,total publicado (OCR),sim,12,2022,4,Quadro 1
+2022,PARNASO – sede Guapimirim,Natural,False,32162,total publicado (OCR),sim,12,2022,4,Quadro 1
+2022,PARNASO – sede Petrópolis,Natural,False,26361,total publicado (OCR),sim,12,2022,4,Quadro 1
+2022,Casa de Petrópolis – Instituto de Cultura,Histórico-cultural,False,12078,total publicado (OCR),sim,12,2022,4,Quadro 1
+2022,Museu Casa do Colono,Histórico-cultural,True,10231,total publicado (OCR),sim,12,2022,4,Quadro 1
+2022,Centro Cultural Estação Nogueira,Histórico-cultural,True,3646,total publicado (OCR),sim,12,2022,4,Quadro 1
+2022,Casa Stefan Zweig,Histórico-cultural,True,1938,total publicado (OCR),sim,10,2022,4,Quadro 1
+2022,Concertos/Recitais – Casa de Petrópolis,Entretenimento cultural,False,980,total publicado (OCR),sim,11,2022,4,Quadro 1
+2022,Igreja de Confissão Luterana,Histórico-cultural,False,260,total publicado (OCR),sim,12,2022,4,Quadro 1
+2023,Museu Imperial,Histórico-cultural,True,323633,total publicado,sim,12,2023,3,G1
+2023,PARNASO – total das 3 sedes,Natural,False,208460,soma dos meses,sim,12,2023,5,T3
+2023,PARNASO – sede Teresópolis,Natural,False,130167,soma dos meses,sim,12,2023,5,T3
+2023,Parque Crèmerie,Natural,False,116546,soma dos meses,sim,12,2023,5,T3
+2023,Museu Casa de Santos Dumont,Histórico-cultural,True,86722,total publicado,sim,8,2023,3,G1
+2023,Centro de Experiência Cervejeira Bohemia,Histórico-cultural,True,52911,total publicado,sim,12,2023,3,G1
+2023,PARNASO – sede Guapimirim,Natural,False,41905,soma dos meses,sim,12,2023,5,T3
+2023,PARNASO – sede Petrópolis,Natural,False,36388,soma dos meses,sim,12,2023,5,T3
+2023,Museu dos Brinquedos,Histórico-cultural,False,20045,total publicado,sim,12,2023,3,G1
+2023,Museu Casa do Colono,Histórico-cultural,True,19359,total publicado,sim,12,2023,3,G1
+2023,Parque Natural Municipal Padre Quinha,Natural,False,13676,soma dos meses,sim,9,2023,5,T3
+2023,Casa de Petrópolis – Instituto de Cultura,Histórico-cultural,False,12740,total publicado,sim,12,2023,3,G1
+2023,Galeria Expositiva Princesa Isabel (Catedral),Histórico-cultural,False,11105,total publicado,sim,12,2023,3,G1
+2023,Centro Cultural Estação Nogueira,Histórico-cultural,True,4698,total publicado,sim,12,2023,3,G1
+2023,Casa Stefan Zweig,Histórico-cultural,True,3925,total publicado,sim,12,2023,3,G1
+2023,Palácio Amarelo (Câmara Municipal),Histórico-cultural,False,2536,total publicado,sim,12,2023,3,G1
+2023,Igreja de Confissão Luterana,Histórico-cultural,False,1833,total publicado,sim,12,2023,3,G1
+2023,Um Sarau Imperial,Entretenimento cultural,False,1206,soma dos meses,sim,4,2023,3,T2
+2023,Concertos/Recitais – Casa de Petrópolis,Entretenimento cultural,False,980,soma dos meses,sim,12,2023,3,T2
+2024,Museu Imperial,Histórico-cultural,True,315581,soma dos meses,sim,12,2024,1,T1
+2024,PARNASO – total das 3 sedes,Natural,False,239991,soma dos meses,sim,12,2024,1,T1
+2024,PARNASO – sede Teresópolis,Natural,False,156643,soma dos meses,sim,12,2024,1,T1
+2024,Museu Casa de Santos Dumont,Histórico-cultural,True,143430,soma dos meses,sim,12,2024,1,T1
+2024,Parque Crèmerie,Natural,False,106755,soma dos meses,sim,12,2024,1,T1
+2024,Centro de Experiência Cervejeira Bohemia,Histórico-cultural,True,47615,soma dos meses,sim,12,2024,1,T1
+2024,PARNASO – sede Guapimirim,Natural,False,47565,soma dos meses,sim,12,2024,1,T1
+2024,PARNASO – sede Petrópolis,Natural,False,35783,soma dos meses,sim,12,2024,1,T1
+2024,Museu dos Brinquedos,Histórico-cultural,False,24007,soma dos meses,sim,12,2024,1,T1
+2024,Parque Natural Municipal Padre Quinha,Natural,False,15738,soma dos meses,sim,11,2024,1,T1
+2024,Museu Casa do Colono,Histórico-cultural,True,15094,soma dos meses,sim,12,2024,1,T1
+2024,Galeria Expositiva Princesa Isabel (Catedral),Histórico-cultural,False,14351,soma dos meses,sim,12,2024,1,T1
+2024,Casa de Petrópolis – Instituto de Cultura,Histórico-cultural,False,8886,soma dos meses,sim,12,2024,1,T1
+2024,Um Sarau Imperial,Entretenimento cultural,False,5405,soma dos meses,sim,12,2024,1,T1
+2024,Casa Stefan Zweig,Histórico-cultural,True,3908,soma dos meses,sim,12,2024,1,T1
+2024,Centro Cultural Estação Nogueira,Histórico-cultural,True,3421,soma dos meses,sim,12,2024,1,T1
+2024,Igreja de Confissão Luterana,Histórico-cultural,False,1770,soma dos meses,sim,12,2024,1,T1
+2024,Concertos/Recitais – Casa de Petrópolis,Entretenimento cultural,False,570,soma dos meses,sim,12,2024,1,T1
+2025,Museu Imperial,Histórico-cultural,True,342547,total publicado,sim,,2025,1,T1
+2025,PARNASO – total das 3 sedes,Natural,False,330809,total publicado,sim,,2025,1,T1
+2025,PARNASO – sede Teresópolis,Natural,False,222435,total publicado,sim,,2025,1,T1
+2025,Parque Crèmerie,Natural,False,192458,total publicado,sim,,2025,1,T1
+2025,Museu Casa de Santos Dumont,Histórico-cultural,True,153946,total publicado,sim,,2025,1,T1
+2025,PARNASO – sede Guapimirim,Natural,False,65769,total publicado,sim,,2025,1,T1
+2025,PARNASO – sede Petrópolis,Natural,False,42605,total publicado,sim,,2025,1,T1
+2025,Centro de Experiência Cervejeira Bohemia,Histórico-cultural,True,39289,total publicado,sim,,2025,1,T1
+2025,Museu dos Brinquedos,Histórico-cultural,False,28056,total publicado,sim,,2025,1,T1
+2025,Museu Casa do Colono,Histórico-cultural,True,16294,total publicado,sim,,2025,1,T1
+2025,Galeria Expositiva Princesa Isabel (Catedral),Histórico-cultural,False,15268,total publicado,sim,,2025,1,T1
+2025,Um Sarau Imperial,Entretenimento cultural,False,9571,total publicado,sim,,2025,1,T1
+2025,Centro Cultural Estação Nogueira,Histórico-cultural,True,7552,total publicado,sim,,2025,1,T1
+2025,Casa de Petrópolis – Instituto de Cultura,Histórico-cultural,False,6762,total publicado,sim,,2025,1,T1
+2025,Casa Stefan Zweig,Histórico-cultural,True,4888,total publicado,sim,,2025,1,T1
+2025,Igreja de Confissão Luterana,Histórico-cultural,False,2554,total publicado,sim,,2025,1,T1
+2025,Som e Luz,Entretenimento cultural,False,1928,total publicado,sim,,2025,1,T1
+2025,Concertos/Recitais – Casa de Petrópolis,Entretenimento cultural,False,620,total publicado,sim,,2025,1,T1

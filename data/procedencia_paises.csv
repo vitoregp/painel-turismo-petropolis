@@ -1,0 +1,456 @@
+ano,pais,turistas,pct,cobertura,fonte_relatorio,fonte_pagina,fonte_tabela
+2015,França,1020,14.3,10 principais,2015,9,T9
+2015,Argentina,866,12.14,10 principais,2015,9,T9
+2015,Estados Unidos,618,8.66,10 principais,2015,9,T9
+2015,Alemanha,519,7.28,10 principais,2015,9,T9
+2015,Portugal,400,5.61,10 principais,2015,9,T9
+2015,Espanha,356,4.99,10 principais,2015,9,T9
+2015,Itália,338,4.74,10 principais,2015,9,T9
+2015,Chile,265,3.71,10 principais,2015,9,T9
+2015,Colômbia,240,3.36,10 principais,2015,9,T9
+2015,Uruguai,208,2.92,10 principais,2015,9,T9
+2016,Argentina,988,17.41,todos os países,2016,8,T8
+2016,França,779,13.73,todos os países,2016,8,T8
+2016,Estados Unidos,504,8.88,todos os países,2016,8,T8
+2016,Alemanha,415,7.31,todos os países,2016,8,T8
+2016,Chile,316,5.57,todos os países,2016,8,T8
+2016,Colômbia,315,5.55,todos os países,2016,8,T8
+2016,Espanha,242,4.26,todos os países,2016,8,T8
+2016,Portugal,205,3.61,todos os países,2016,8,T8
+2016,Peru,170,3.0,todos os países,2016,8,T8
+2016,Inglaterra,169,2.98,todos os países,2016,8,T8
+2016,Uruguai,147,2.59,todos os países,2016,8,T8
+2016,México,132,2.33,todos os países,2016,8,T8
+2016,Canadá,106,1.87,todos os países,2016,8,T8
+2016,Itália,100,1.76,todos os países,2016,8,T8
+2016,Rússia,78,1.37,todos os países,2016,8,T8
+2016,Suíça,72,1.27,todos os países,2016,8,T8
+2016,Holanda,69,1.22,todos os países,2016,8,T8
+2016,Paraguai,66,1.16,todos os países,2016,8,T8
+2016,Bélgica,57,1.0,todos os países,2016,8,T8
+2016,Áustria,55,0.97,todos os países,2016,8,T8
+2016,Suécia,47,0.83,todos os países,2016,8,T8
+2016,Venezuela,46,0.81,todos os países,2016,8,T8
+2016,Austrália,45,0.79,todos os países,2016,8,T8
+2016,Equador,43,0.76,todos os países,2016,8,T8
+2016,China,37,0.65,todos os países,2016,8,T8
+2016,Dinamarca,36,0.63,todos os países,2016,8,T8
+2016,Polônia,36,0.63,todos os países,2016,8,T8
+2016,Bolívia,31,0.55,todos os países,2016,8,T8
+2016,Japão,31,0.55,todos os países,2016,8,T8
+2016,Israel,30,0.53,todos os países,2016,8,T8
+2016,Noruega,25,0.44,todos os países,2016,8,T8
+2016,Irlanda,20,0.35,todos os países,2016,8,T8
+2016,Índia,20,0.35,todos os países,2016,8,T8
+2016,Finlândia,17,0.3,todos os países,2016,8,T8
+2016,Nova Zelândia,15,0.26,todos os países,2016,8,T8
+2016,Panamá,14,0.25,todos os países,2016,8,T8
+2016,Hungria,12,0.21,todos os países,2016,8,T8
+2016,Porto Rico,12,0.21,todos os países,2016,8,T8
+2016,Costa Rica,11,0.19,todos os países,2016,8,T8
+2016,República Tcheca,10,0.18,todos os países,2016,8,T8
+2016,Filipinas,9,0.16,todos os países,2016,8,T8
+2016,África do Sul,9,0.16,todos os países,2016,8,T8
+2016,Cuba,8,0.14,todos os países,2016,8,T8
+2016,País de Gales,8,0.14,todos os países,2016,8,T8
+2016,Coreia do Sul,7,0.12,todos os países,2016,8,T8
+2016,Marrocos,7,0.12,todos os países,2016,8,T8
+2016,Sérvia,7,0.12,todos os países,2016,8,T8
+2016,Escócia,6,0.11,todos os países,2016,8,T8
+2016,Grécia,6,0.11,todos os países,2016,8,T8
+2016,Líbano,6,0.11,todos os países,2016,8,T8
+2016,Singapura,6,0.11,todos os países,2016,8,T8
+2016,Tailândia,6,0.11,todos os países,2016,8,T8
+2016,Irã,5,0.09,todos os países,2016,8,T8
+2016,Romênia,5,0.09,todos os países,2016,8,T8
+2016,Iugoslávia,4,0.07,todos os países,2016,8,T8
+2016,Ucrânia,4,0.07,todos os países,2016,8,T8
+2016,Vietnã,4,0.07,todos os países,2016,8,T8
+2016,Eslováquia,3,0.05,todos os países,2016,8,T8
+2016,Honduras,3,0.05,todos os países,2016,8,T8
+2016,Indonésia,3,0.05,todos os países,2016,8,T8
+2016,Lituânia,3,0.05,todos os países,2016,8,T8
+2016,Macedônia,3,0.05,todos os países,2016,8,T8
+2016,Mauritânia,3,0.05,todos os países,2016,8,T8
+2016,Paquistão,3,0.05,todos os países,2016,8,T8
+2016,República Dominicana,3,0.05,todos os países,2016,8,T8
+2016,Tunísia,3,0.05,todos os países,2016,8,T8
+2016,Angola,2,0.04,todos os países,2016,8,T8
+2016,Armênia,2,0.04,todos os países,2016,8,T8
+2016,Estônia,2,0.04,todos os países,2016,8,T8
+2016,Guatemala,2,0.04,todos os países,2016,8,T8
+2016,Camboja,1,0.02,todos os países,2016,8,T8
+2016,Croácia,1,0.02,todos os países,2016,8,T8
+2016,Egito,1,0.02,todos os países,2016,8,T8
+2016,El Salvador,1,0.02,todos os países,2016,8,T8
+2016,Eslovênia,1,0.02,todos os países,2016,8,T8
+2016,Letônia,1,0.02,todos os países,2016,8,T8
+2016,Malta,1,0.02,todos os países,2016,8,T8
+2016,Moçambique,1,0.02,todos os países,2016,8,T8
+2016,Quênia,1,0.02,todos os países,2016,8,T8
+2016,Turquia,1,0.02,todos os países,2016,8,T8
+2017,Argentina,695,21.71,todos os países,2017,9,T7
+2017,França,385,12.03,todos os países,2017,9,T7
+2017,Estados Unidos,249,7.78,todos os países,2017,9,T7
+2017,Alemanha,232,7.25,todos os países,2017,9,T7
+2017,Espanha,183,5.72,todos os países,2017,9,T7
+2017,Chile,168,5.25,todos os países,2017,9,T7
+2017,Colômbia,163,5.09,todos os países,2017,9,T7
+2017,Peru,124,3.87,todos os países,2017,9,T7
+2017,Portugal,120,3.75,todos os países,2017,9,T7
+2017,Inglaterra,95,2.97,todos os países,2017,9,T7
+2017,Itália,93,2.91,todos os países,2017,9,T7
+2017,Uruguai,89,2.78,todos os países,2017,9,T7
+2017,Austrália,60,1.87,todos os países,2017,9,T7
+2017,Canadá,53,1.66,todos os países,2017,9,T7
+2017,Paraguai,53,1.66,todos os países,2017,9,T7
+2017,México,50,1.56,todos os países,2017,9,T7
+2017,Áustria,42,1.31,todos os países,2017,9,T7
+2017,Holanda,41,1.28,todos os países,2017,9,T7
+2017,Equador,32,1.0,todos os países,2017,9,T7
+2017,Bolívia,27,0.84,todos os países,2017,9,T7
+2017,Suíça,27,0.84,todos os países,2017,9,T7
+2017,Japão,22,0.69,todos os países,2017,9,T7
+2017,Bélgica,19,0.59,todos os países,2017,9,T7
+2017,Nova Zelândia,13,0.41,todos os países,2017,9,T7
+2017,Rússia,13,0.41,todos os países,2017,9,T7
+2017,Costa Rica,12,0.37,todos os países,2017,9,T7
+2017,Panamá,12,0.37,todos os países,2017,9,T7
+2017,Venezuela,11,0.34,todos os países,2017,9,T7
+2017,Israel,10,0.31,todos os países,2017,9,T7
+2017,Azerbaijão,8,0.25,todos os países,2017,9,T7
+2017,China,8,0.25,todos os países,2017,9,T7
+2017,Irlanda,8,0.25,todos os países,2017,9,T7
+2017,Suécia,8,0.25,todos os países,2017,9,T7
+2017,Ucrânia,7,0.22,todos os países,2017,9,T7
+2017,Finlândia,6,0.19,todos os países,2017,9,T7
+2017,Marrocos,6,0.19,todos os países,2017,9,T7
+2017,Cuba,5,0.16,todos os países,2017,9,T7
+2017,Dinamarca,5,0.16,todos os países,2017,9,T7
+2017,Grécia,5,0.16,todos os países,2017,9,T7
+2017,Guatemala,5,0.16,todos os países,2017,9,T7
+2017,Noruega,5,0.16,todos os países,2017,9,T7
+2017,Índia,5,0.16,todos os países,2017,9,T7
+2017,Irã,4,0.12,todos os países,2017,9,T7
+2017,Tchecoslováquia,4,0.12,todos os países,2017,9,T7
+2017,Angola,3,0.09,todos os países,2017,9,T7
+2017,Egito,2,0.06,todos os países,2017,9,T7
+2017,Mônaco,2,0.06,todos os países,2017,9,T7
+2017,Polônia,2,0.06,todos os países,2017,9,T7
+2017,República Dominicana,2,0.06,todos os países,2017,9,T7
+2017,Senegal,2,0.06,todos os países,2017,9,T7
+2017,Coreia do Sul,1,0.03,todos os países,2017,9,T7
+2017,Filipinas,1,0.03,todos os países,2017,9,T7
+2017,Líbano,1,0.03,todos os países,2017,9,T7
+2017,Singapura,1,0.03,todos os países,2017,9,T7
+2017,Timor Leste,1,0.03,todos os países,2017,9,T7
+2017,África do Sul,1,0.03,todos os países,2017,9,T7
+2018,Argentina,639,18.97,todos os países,2018,9,T7
+2018,França,342,10.15,todos os países,2018,9,T7
+2018,Chile,283,8.4,todos os países,2018,9,T7
+2018,Estados Unidos,235,6.98,todos os países,2018,9,T7
+2018,Espanha,231,6.86,todos os países,2018,9,T7
+2018,Alemanha,196,5.82,todos os países,2018,9,T7
+2018,Colômbia,181,5.37,todos os países,2018,9,T7
+2018,Uruguai,139,4.13,todos os países,2018,9,T7
+2018,Portugal,133,3.95,todos os países,2018,9,T7
+2018,Peru,130,3.86,todos os países,2018,9,T7
+2018,Itália,129,3.83,todos os países,2018,9,T7
+2018,Paraguai,116,3.44,todos os países,2018,9,T7
+2018,Inglaterra,77,2.29,todos os países,2018,9,T7
+2018,Canadá,73,2.17,todos os países,2018,9,T7
+2018,México,53,1.57,todos os países,2018,9,T7
+2018,Equador,45,1.34,todos os países,2018,9,T7
+2018,Holanda,34,1.01,todos os países,2018,9,T7
+2018,China,31,0.92,todos os países,2018,9,T7
+2018,Costa Rica,25,0.74,todos os países,2018,9,T7
+2018,Bolívia,21,0.62,todos os países,2018,9,T7
+2018,Japão,20,0.59,todos os países,2018,9,T7
+2018,Suíça,19,0.56,todos os países,2018,9,T7
+2018,Bélgica,17,0.5,todos os países,2018,9,T7
+2018,Índia,17,0.5,todos os países,2018,9,T7
+2018,Venezuela,16,0.48,todos os países,2018,9,T7
+2018,Cuba,15,0.45,todos os países,2018,9,T7
+2018,Áustria,14,0.42,todos os países,2018,9,T7
+2018,Porto Rico,13,0.39,todos os países,2018,9,T7
+2018,Coreia do Sul,11,0.33,todos os países,2018,9,T7
+2018,Polônia,9,0.27,todos os países,2018,9,T7
+2018,Israel,8,0.24,todos os países,2018,9,T7
+2018,Rússia,8,0.24,todos os países,2018,9,T7
+2018,Romênia,7,0.21,todos os países,2018,9,T7
+2018,Austrália,6,0.18,todos os países,2018,9,T7
+2018,Noruega,6,0.18,todos os países,2018,9,T7
+2018,República Dominicana,5,0.15,todos os países,2018,9,T7
+2018,Suécia,5,0.15,todos os países,2018,9,T7
+2018,Síria,5,0.15,todos os países,2018,9,T7
+2018,Guatemala,4,0.12,todos os países,2018,9,T7
+2018,Honduras,4,0.12,todos os países,2018,9,T7
+2018,Jamaica,4,0.12,todos os países,2018,9,T7
+2018,Líbano,4,0.12,todos os países,2018,9,T7
+2018,Nicarágua,4,0.12,todos os países,2018,9,T7
+2018,Nova Zelândia,4,0.12,todos os países,2018,9,T7
+2018,República Tcheca,4,0.12,todos os países,2018,9,T7
+2018,Bulgária,3,0.09,todos os países,2018,9,T7
+2018,Irlanda,3,0.09,todos os países,2018,9,T7
+2018,Luxemburgo,3,0.09,todos os países,2018,9,T7
+2018,Panamá,3,0.09,todos os países,2018,9,T7
+2018,Dinamarca,2,0.06,todos os países,2018,9,T7
+2018,Turquia,2,0.06,todos os países,2018,9,T7
+2018,Ucrânia,2,0.06,todos os países,2018,9,T7
+2018,Angola,1,0.03,todos os países,2018,9,T7
+2018,Cazaquistão,1,0.03,todos os países,2018,9,T7
+2018,Eslovênia,1,0.03,todos os países,2018,9,T7
+2018,Estônia,1,0.03,todos os países,2018,9,T7
+2018,Irã,1,0.03,todos os países,2018,9,T7
+2018,Myanmar,1,0.03,todos os países,2018,9,T7
+2018,Singapura,1,0.03,todos os países,2018,9,T7
+2018,Taiwan,1,0.03,todos os países,2018,9,T7
+2019,Argentina,510,19.73,todos os países,2019,9,T9
+2019,França,231,8.94,todos os países,2019,9,T9
+2019,Chile,205,7.93,todos os países,2019,9,T9
+2019,Estados Unidos,184,7.12,todos os países,2019,9,T9
+2019,Uruguai,138,5.34,todos os países,2019,9,T9
+2019,Paraguai,136,5.26,todos os países,2019,9,T9
+2019,Colômbia,131,5.07,todos os países,2019,9,T9
+2019,Peru,131,5.07,todos os países,2019,9,T9
+2019,Alemanha,117,4.53,todos os países,2019,9,T9
+2019,Espanha,90,3.48,todos os países,2019,9,T9
+2019,Portugal,74,2.86,todos os países,2019,9,T9
+2019,Inglaterra,63,2.44,todos os países,2019,9,T9
+2019,Itália,59,2.28,todos os países,2019,9,T9
+2019,México,53,2.05,todos os países,2019,9,T9
+2019,Canadá,42,1.62,todos os países,2019,9,T9
+2019,Austrália,33,1.28,todos os países,2019,9,T9
+2019,Suécia,29,1.12,todos os países,2019,9,T9
+2019,Suíça,26,1.01,todos os países,2019,9,T9
+2019,Bolívia,24,0.93,todos os países,2019,9,T9
+2019,Holanda,24,0.93,todos os países,2019,9,T9
+2019,Romênia,19,0.74,todos os países,2019,9,T9
+2019,Guatemala,17,0.66,todos os países,2019,9,T9
+2019,Áustria,17,0.66,todos os países,2019,9,T9
+2019,Estônia,16,0.62,todos os países,2019,9,T9
+2019,Índia,15,0.58,todos os países,2019,9,T9
+2019,Equador,14,0.54,todos os países,2019,9,T9
+2019,Filipinas,14,0.54,todos os países,2019,9,T9
+2019,Coreia do Sul,13,0.5,todos os países,2019,9,T9
+2019,Noruega,13,0.5,todos os países,2019,9,T9
+2019,Venezuela,12,0.46,todos os países,2019,9,T9
+2019,Polônia,10,0.39,todos os países,2019,9,T9
+2019,Israel,9,0.35,todos os países,2019,9,T9
+2019,Taiwan,8,0.31,todos os países,2019,9,T9
+2019,África do Sul,8,0.31,todos os países,2019,9,T9
+2019,Croácia,7,0.27,todos os países,2019,9,T9
+2019,Emirados Árabes Unidos,7,0.27,todos os países,2019,9,T9
+2019,Finlândia,7,0.27,todos os países,2019,9,T9
+2019,Japão,7,0.27,todos os países,2019,9,T9
+2019,Bélgica,6,0.23,todos os países,2019,9,T9
+2019,China,6,0.23,todos os países,2019,9,T9
+2019,Nicarágua,6,0.23,todos os países,2019,9,T9
+2019,Irlanda,5,0.19,todos os países,2019,9,T9
+2019,Marrocos,5,0.19,todos os países,2019,9,T9
+2019,Nova Zelândia,5,0.19,todos os países,2019,9,T9
+2019,Honduras,4,0.15,todos os países,2019,9,T9
+2019,Malásia,4,0.15,todos os países,2019,9,T9
+2019,Panamá,4,0.15,todos os países,2019,9,T9
+2019,Turquia,4,0.15,todos os países,2019,9,T9
+2019,Dinamarca,3,0.12,todos os países,2019,9,T9
+2019,Hungria,3,0.12,todos os países,2019,9,T9
+2019,Irã,3,0.12,todos os países,2019,9,T9
+2019,Angola,2,0.08,todos os países,2019,9,T9
+2019,Egito,2,0.08,todos os países,2019,9,T9
+2019,Grécia,2,0.08,todos os países,2019,9,T9
+2019,Moçambique,2,0.08,todos os países,2019,9,T9
+2019,República Dominicana,2,0.08,todos os países,2019,9,T9
+2019,Ucrânia,2,0.08,todos os países,2019,9,T9
+2019,Indonésia,1,0.04,todos os países,2019,9,T9
+2019,República Tcheca,1,0.04,todos os países,2019,9,T9
+2020,Argentina,86,35.68,todos os países,2020,9,T7
+2020,França,40,16.6,todos os países,2020,9,T7
+2020,Chile,16,6.64,todos os países,2020,9,T7
+2020,Alemanha,11,4.56,todos os países,2020,9,T7
+2020,Suíça,11,4.56,todos os países,2020,9,T7
+2020,Peru,10,4.15,todos os países,2020,9,T7
+2020,Suécia,9,3.73,todos os países,2020,9,T7
+2020,Uruguai,9,3.73,todos os países,2020,9,T7
+2020,Inglaterra,6,2.49,todos os países,2020,9,T7
+2020,Noruega,6,2.49,todos os países,2020,9,T7
+2020,Canadá,5,2.07,todos os países,2020,9,T7
+2020,Colômbia,5,2.07,todos os países,2020,9,T7
+2020,Portugal,5,2.07,todos os países,2020,9,T7
+2020,Espanha,4,1.66,todos os países,2020,9,T7
+2020,Equador,3,1.24,todos os países,2020,9,T7
+2020,Polônia,3,1.24,todos os países,2020,9,T7
+2020,Paraguai,2,0.83,todos os países,2020,9,T7
+2020,República Tcheca,2,0.83,todos os países,2020,9,T7
+2020,Ucrânia,2,0.83,todos os países,2020,9,T7
+2020,Austrália,1,0.41,todos os países,2020,9,T7
+2020,Bolívia,1,0.41,todos os países,2020,9,T7
+2020,Estados Unidos,1,0.41,todos os países,2020,9,T7
+2020,Holanda,1,0.41,todos os países,2020,9,T7
+2020,Itália,1,0.41,todos os países,2020,9,T7
+2020,Taiwan,1,0.41,todos os países,2020,9,T7
+2021,Estados Unidos,20,17.09,todos os países,2021,22,T16
+2021,Argentina,15,12.82,todos os países,2021,22,T16
+2021,Colômbia,12,10.26,todos os países,2021,22,T16
+2021,Portugal,10,8.55,todos os países,2021,22,T16
+2021,Peru,8,6.84,todos os países,2021,22,T16
+2021,México,7,5.98,todos os países,2021,22,T16
+2021,Chile,6,5.13,todos os países,2021,22,T16
+2021,Itália,6,5.13,todos os países,2021,22,T16
+2021,Rússia,6,5.13,todos os países,2021,22,T16
+2021,Alemanha,4,3.42,todos os países,2021,22,T16
+2021,Cuba,4,3.42,todos os países,2021,22,T16
+2021,Espanha,4,3.42,todos os países,2021,22,T16
+2021,Canadá,3,2.56,todos os países,2021,22,T16
+2021,França,3,2.56,todos os países,2021,22,T16
+2021,Bélgica,2,1.71,todos os países,2021,22,T16
+2021,Suécia,2,1.71,todos os países,2021,22,T16
+2021,Uruguai,2,1.71,todos os países,2021,22,T16
+2021,Marrocos,1,0.85,todos os países,2021,22,T16
+2021,Ucrânia,1,0.85,todos os países,2021,22,T16
+2021,África do Sul,1,0.85,todos os países,2021,22,T16
+2022,Argentina,93,19.02,todos os países,2022,20,Tabela 9
+2022,Itália,43,8.79,todos os países,2022,20,Tabela 9
+2022,Espanha,34,6.95,todos os países,2022,20,Tabela 9
+2022,França,32,6.54,todos os países,2022,20,Tabela 9
+2022,Alemanha,31,6.34,todos os países,2022,20,Tabela 9
+2022,Costa Rica,30,6.13,todos os países,2022,20,Tabela 9
+2022,Estados Unidos,29,5.93,todos os países,2022,20,Tabela 9
+2022,Chile,20,4.09,todos os países,2022,20,Tabela 9
+2022,Colômbia,20,4.09,todos os países,2022,20,Tabela 9
+2022,México,18,3.68,todos os países,2022,20,Tabela 9
+2022,Romênia,16,3.27,todos os países,2022,20,Tabela 9
+2022,Polônia,15,3.07,todos os países,2022,20,Tabela 9
+2022,Portugal,14,2.86,todos os países,2022,20,Tabela 9
+2022,Peru,13,2.66,todos os países,2022,20,Tabela 9
+2022,Bélgica,11,2.25,todos os países,2022,20,Tabela 9
+2022,Uruguai,11,2.25,todos os países,2022,20,Tabela 9
+2022,Israel,9,1.84,todos os países,2022,20,Tabela 9
+2022,Inglaterra,8,1.64,todos os países,2022,20,Tabela 9
+2022,Holanda,7,1.43,todos os países,2022,20,Tabela 9
+2022,República Tcheca,5,1.02,todos os países,2022,20,Tabela 9
+2022,Bolívia,4,0.82,todos os países,2022,20,Tabela 9
+2022,Rússia,4,0.82,todos os países,2022,20,Tabela 9
+2022,Suíça,4,0.82,todos os países,2022,20,Tabela 9
+2022,Equador,3,0.61,todos os países,2022,20,Tabela 9
+2022,Canadá,2,0.41,todos os países,2022,20,Tabela 9
+2022,Chipre,2,0.41,todos os países,2022,20,Tabela 9
+2022,Irlanda,2,0.41,todos os países,2022,20,Tabela 9
+2022,Porto Rico,2,0.41,todos os países,2022,20,Tabela 9
+2022,Argélia,1,0.2,todos os países,2022,20,Tabela 9
+2022,Egito,1,0.2,todos os países,2022,20,Tabela 9
+2022,Hong Kong,1,0.2,todos os países,2022,20,Tabela 9
+2022,Japão,1,0.2,todos os países,2022,20,Tabela 9
+2022,Luxemburgo,1,0.2,todos os países,2022,20,Tabela 9
+2022,Nova Zelândia,1,0.2,todos os países,2022,20,Tabela 9
+2022,Áustria,1,0.2,todos os países,2022,20,Tabela 9
+2023,Argentina,182,17.32,todos os países,2023,17,T9
+2023,França,135,12.84,todos os países,2023,17,T9
+2023,Estados Unidos,114,10.85,todos os países,2023,17,T9
+2023,Colômbia,91,8.66,todos os países,2023,17,T9
+2023,Chile,56,5.33,todos os países,2023,17,T9
+2023,Espanha,56,5.33,todos os países,2023,17,T9
+2023,Alemanha,53,5.04,todos os países,2023,17,T9
+2023,Canadá,51,4.85,todos os países,2023,17,T9
+2023,Bélgica,24,2.28,todos os países,2023,17,T9
+2023,Inglaterra,23,2.19,todos os países,2023,17,T9
+2023,Itália,23,2.19,todos os países,2023,17,T9
+2023,Portugal,23,2.19,todos os países,2023,17,T9
+2023,Austrália,20,1.9,todos os países,2023,17,T9
+2023,Sérvia,20,1.9,todos os países,2023,17,T9
+2023,México,19,1.81,todos os países,2023,17,T9
+2023,Equador,16,1.52,todos os países,2023,17,T9
+2023,Uruguai,14,1.33,todos os países,2023,17,T9
+2023,Peru,13,1.24,todos os países,2023,17,T9
+2023,Singapura,12,1.14,todos os países,2023,17,T9
+2023,Dinamarca,9,0.86,todos os países,2023,17,T9
+2023,Holanda,8,0.76,todos os países,2023,17,T9
+2023,Rússia,8,0.76,todos os países,2023,17,T9
+2023,Áustria,8,0.76,todos os países,2023,17,T9
+2023,Coreia do Sul,7,0.67,todos os países,2023,17,T9
+2023,Polônia,6,0.57,todos os países,2023,17,T9
+2023,Porto Rico,6,0.57,todos os países,2023,17,T9
+2023,Filipinas,5,0.48,todos os países,2023,17,T9
+2023,Cuba,4,0.38,todos os países,2023,17,T9
+2023,Irlanda,4,0.38,todos os países,2023,17,T9
+2023,Suíça,4,0.38,todos os países,2023,17,T9
+2023,Taiwan,4,0.38,todos os países,2023,17,T9
+2023,África do Sul,4,0.38,todos os países,2023,17,T9
+2023,Bolívia,3,0.29,todos os países,2023,17,T9
+2023,Japão,3,0.29,todos os países,2023,17,T9
+2023,Ucrânia,3,0.29,todos os países,2023,17,T9
+2023,Venezuela,3,0.29,todos os países,2023,17,T9
+2023,China,2,0.19,todos os países,2023,17,T9
+2023,Escócia,2,0.19,todos os países,2023,17,T9
+2023,Israel,2,0.19,todos os países,2023,17,T9
+2023,Noruega,2,0.19,todos os países,2023,17,T9
+2023,Panamá,2,0.19,todos os países,2023,17,T9
+2023,Croácia,1,0.1,todos os países,2023,17,T9
+2023,El Salvador,1,0.1,todos os países,2023,17,T9
+2023,Guatemala,1,0.1,todos os países,2023,17,T9
+2023,Hungria,1,0.1,todos os países,2023,17,T9
+2023,Letônia,1,0.1,todos os países,2023,17,T9
+2023,Turquia,1,0.1,todos os países,2023,17,T9
+2023,Índia,1,0.1,todos os países,2023,17,T9
+2024,Argentina,335,11.74,todos os países,2024,6,T3
+2024,Chile,278,9.74,todos os países,2024,6,T3
+2024,França,251,8.8,todos os países,2024,6,T3
+2024,Peru,215,7.54,todos os países,2024,6,T3
+2024,Estados Unidos,178,6.24,todos os países,2024,6,T3
+2024,México,159,5.57,todos os países,2024,6,T3
+2024,Alemanha,141,4.94,todos os países,2024,6,T3
+2024,Colômbia,128,4.49,todos os países,2024,6,T3
+2024,Uruguai,118,4.14,todos os países,2024,6,T3
+2024,Espanha,100,3.51,todos os países,2024,6,T3
+2024,Portugal,93,3.26,todos os países,2024,6,T3
+2024,Itália,91,3.19,todos os países,2024,6,T3
+2024,Equador,80,2.8,todos os países,2024,6,T3
+2024,Inglaterra,63,2.21,todos os países,2024,6,T3
+2024,Canadá,49,1.72,todos os países,2024,6,T3
+2024,Costa Rica,47,1.65,todos os países,2024,6,T3
+2024,Holanda,37,1.3,todos os países,2024,6,T3
+2024,Venezuela,36,1.26,todos os países,2024,6,T3
+2024,Paraguai,35,1.23,todos os países,2024,6,T3
+2024,Romênia,33,1.16,todos os países,2024,6,T3
+2024,Israel,31,1.09,todos os países,2024,6,T3
+2024,Rússia,30,1.05,todos os países,2024,6,T3
+2024,Índia,29,1.02,todos os países,2024,6,T3
+2024,China,26,0.91,todos os países,2024,6,T3
+2024,Suíça,26,0.91,todos os países,2024,6,T3
+2024,Bélgica,23,0.81,todos os países,2024,6,T3
+2024,Panamá,16,0.56,todos os países,2024,6,T3
+2024,Polônia,16,0.56,todos os países,2024,6,T3
+2024,República Dominicana,15,0.53,todos os países,2024,6,T3
+2024,Bolívia,14,0.49,todos os países,2024,6,T3
+2024,Hungria,14,0.49,todos os países,2024,6,T3
+2024,Austrália,12,0.42,todos os países,2024,6,T3
+2024,Japão,12,0.42,todos os países,2024,6,T3
+2024,Noruega,12,0.42,todos os países,2024,6,T3
+2024,África do Sul,12,0.42,todos os países,2024,6,T3
+2024,Guatemala,10,0.35,todos os países,2024,6,T3
+2024,Singapura,10,0.35,todos os países,2024,6,T3
+2024,Bulgária,9,0.32,todos os países,2024,6,T3
+2024,Malásia,7,0.25,todos os países,2024,6,T3
+2024,República Tcheca,7,0.25,todos os países,2024,6,T3
+2024,Cuba,6,0.21,todos os países,2024,6,T3
+2024,Escócia,5,0.18,todos os países,2024,6,T3
+2024,Honduras,5,0.18,todos os países,2024,6,T3
+2024,Nicarágua,5,0.18,todos os países,2024,6,T3
+2024,Áustria,5,0.18,todos os países,2024,6,T3
+2024,Jordânia,4,0.14,todos os países,2024,6,T3
+2024,Suécia,3,0.11,todos os países,2024,6,T3
+2024,Armênia,2,0.07,todos os países,2024,6,T3
+2024,Cabo Verde,2,0.07,todos os países,2024,6,T3
+2024,Dinamarca,2,0.07,todos os países,2024,6,T3
+2024,Eslovênia,2,0.07,todos os países,2024,6,T3
+2024,Haiti,2,0.07,todos os países,2024,6,T3
+2024,Irã,2,0.07,todos os países,2024,6,T3
+2024,Taiwan,2,0.07,todos os países,2024,6,T3
+2024,Bósnia,1,0.04,todos os países,2024,6,T3
+2024,Croácia,1,0.04,todos os países,2024,6,T3
+2024,El Salvador,1,0.04,todos os países,2024,6,T3
+2024,Eslováquia,1,0.04,todos os países,2024,6,T3
+2024,Irlanda,1,0.04,todos os países,2024,6,T3
+2024,Marrocos,1,0.04,todos os países,2024,6,T3
+2024,Suriname,1,0.04,todos os países,2024,6,T3
+2024,Vietnã,1,0.04,todos os países,2024,6,T3

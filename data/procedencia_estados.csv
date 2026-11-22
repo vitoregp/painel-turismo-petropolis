@@ -1,0 +1,200 @@
+ano,uf,sigla,turistas,pct,cobertura,fonte_relatorio,fonte_pagina,fonte_tabela
+2015,Rio de Janeiro,RJ,38405,63.68,10 principais,2015,9,T10
+2015,São Paulo,SP,6857,11.37,10 principais,2015,9,T10
+2015,Minas Gerais,MG,4627,7.67,10 principais,2015,9,T10
+2015,Rio Grande do Sul,RS,1431,2.37,10 principais,2015,9,T10
+2015,Espírito Santo,ES,1052,1.74,10 principais,2015,9,T10
+2015,Pernambuco,PE,873,1.45,10 principais,2015,9,T10
+2015,Bahia,BA,815,1.35,10 principais,2015,9,T10
+2015,Paraná,PR,757,1.26,10 principais,2015,9,T10
+2015,Santa Catarina,SC,740,1.23,10 principais,2015,9,T10
+2015,Distrito Federal,DF,388,0.64,10 principais,2015,9,T10
+2016,Rio de Janeiro,RJ,28068,66.04,10 principais,2016,9,T10
+2016,São Paulo,SP,4935,11.61,10 principais,2016,9,T10
+2016,Minas Gerais,MG,3235,7.61,10 principais,2016,9,T10
+2016,Paraná,PR,745,1.75,10 principais,2016,9,T10
+2016,Pernambuco,PE,735,1.73,10 principais,2016,9,T10
+2016,Espírito Santo,ES,697,1.64,10 principais,2016,9,T10
+2016,Bahia,BA,637,1.5,10 principais,2016,9,T10
+2016,Rio Grande do Sul,RS,621,1.46,10 principais,2016,9,T10
+2016,Ceará,CE,471,1.11,10 principais,2016,9,T10
+2016,Distrito Federal,DF,398,0.94,10 principais,2016,9,T10
+2017,Rio de Janeiro,RJ,23516,72.94,todos os estados,2017,7,T6
+2017,São Paulo,SP,2741,8.5,todos os estados,2017,7,T6
+2017,Minas Gerais,MG,2150,6.67,todos os estados,2017,7,T6
+2017,Rio Grande do Sul,RS,440,1.36,todos os estados,2017,7,T6
+2017,Bahia,BA,437,1.36,todos os estados,2017,7,T6
+2017,Espírito Santo,ES,416,1.29,todos os estados,2017,7,T6
+2017,Paraná,PR,397,1.23,todos os estados,2017,7,T6
+2017,Pernambuco,PE,354,1.1,todos os estados,2017,7,T6
+2017,Ceará,CE,290,0.9,todos os estados,2017,7,T6
+2017,Distrito Federal,DF,283,0.88,todos os estados,2017,7,T6
+2017,Santa Catarina,SC,246,0.76,todos os estados,2017,7,T6
+2017,Amazonas,AM,177,0.55,todos os estados,2017,7,T6
+2017,Pará,PA,119,0.37,todos os estados,2017,7,T6
+2017,Rio Grande do Norte,RN,108,0.34,todos os estados,2017,7,T6
+2017,Goiás,GO,99,0.31,todos os estados,2017,7,T6
+2017,Paraíba,PB,90,0.28,todos os estados,2017,7,T6
+2017,Maranhão,MA,65,0.2,todos os estados,2017,7,T6
+2017,Mato Grosso do Sul,MS,56,0.17,todos os estados,2017,7,T6
+2017,Mato Grosso,MT,52,0.16,todos os estados,2017,7,T6
+2017,Alagoas,AL,49,0.15,todos os estados,2017,7,T6
+2017,Piauí,PI,44,0.14,todos os estados,2017,7,T6
+2017,Sergipe,SE,34,0.11,todos os estados,2017,7,T6
+2017,Tocantins,TO,31,0.1,todos os estados,2017,7,T6
+2017,Acre,AC,17,0.05,todos os estados,2017,7,T6
+2017,Rondônia,RO,10,0.03,todos os estados,2017,7,T6
+2017,Amapá,AP,9,0.03,todos os estados,2017,7,T6
+2017,Roraima,RR,8,0.02,todos os estados,2017,7,T6
+2018,Rio de Janeiro,RJ,49136,84.08,todos os estados,2018,7,T6
+2018,Minas Gerais,MG,3469,5.94,todos os estados,2018,7,T6
+2018,São Paulo,SP,2479,4.24,todos os estados,2018,7,T6
+2018,Espírito Santo,ES,403,0.69,todos os estados,2018,7,T6
+2018,Rio Grande do Sul,RS,352,0.6,todos os estados,2018,7,T6
+2018,Bahia,BA,333,0.57,todos os estados,2018,7,T6
+2018,Paraná,PR,315,0.54,todos os estados,2018,7,T6
+2018,Ceará,CE,289,0.49,todos os estados,2018,7,T6
+2018,Pernambuco,PE,242,0.41,todos os estados,2018,7,T6
+2018,Distrito Federal,DF,195,0.33,todos os estados,2018,7,T6
+2018,Santa Catarina,SC,163,0.28,todos os estados,2018,7,T6
+2018,Rio Grande do Norte,RN,153,0.26,todos os estados,2018,7,T6
+2018,Mato Grosso,MT,149,0.25,todos os estados,2018,7,T6
+2018,Goiás,GO,129,0.22,todos os estados,2018,7,T6
+2018,Alagoas,AL,105,0.18,todos os estados,2018,7,T6
+2018,Pará,PA,91,0.16,todos os estados,2018,7,T6
+2018,Mato Grosso do Sul,MS,76,0.13,todos os estados,2018,7,T6
+2018,Amazonas,AM,74,0.13,todos os estados,2018,7,T6
+2018,Paraíba,PB,73,0.12,todos os estados,2018,7,T6
+2018,Maranhão,MA,63,0.11,todos os estados,2018,7,T6
+2018,Acre,AC,50,0.09,todos os estados,2018,7,T6
+2018,Sergipe,SE,42,0.07,todos os estados,2018,7,T6
+2018,Piauí,PI,32,0.05,todos os estados,2018,7,T6
+2018,Rondônia,RO,11,0.02,todos os estados,2018,7,T6
+2018,Tocantins,TO,11,0.02,todos os estados,2018,7,T6
+2018,Amapá,AP,7,0.01,todos os estados,2018,7,T6
+2019,Rio de Janeiro,RJ,39124,84.69,todos os estados,2019,7,T7
+2019,São Paulo,SP,2065,4.47,todos os estados,2019,7,T7
+2019,Minas Gerais,MG,2022,4.38,todos os estados,2019,7,T7
+2019,Espírito Santo,ES,454,0.98,todos os estados,2019,7,T7
+2019,Rio Grande do Sul,RS,405,0.88,todos os estados,2019,7,T7
+2019,Santa Catarina,SC,295,0.64,todos os estados,2019,7,T7
+2019,Bahia,BA,247,0.53,todos os estados,2019,7,T7
+2019,Ceará,CE,209,0.45,todos os estados,2019,7,T7
+2019,Paraná,PR,186,0.4,todos os estados,2019,7,T7
+2019,Distrito Federal,DF,149,0.32,todos os estados,2019,7,T7
+2019,Pernambuco,PE,141,0.31,todos os estados,2019,7,T7
+2019,Mato Grosso,MT,126,0.27,todos os estados,2019,7,T7
+2019,Goiás,GO,123,0.27,todos os estados,2019,7,T7
+2019,Amazonas,AM,116,0.25,todos os estados,2019,7,T7
+2019,Rio Grande do Norte,RN,108,0.23,todos os estados,2019,7,T7
+2019,Maranhão,MA,82,0.18,todos os estados,2019,7,T7
+2019,Piauí,PI,75,0.16,todos os estados,2019,7,T7
+2019,Sergipe,SE,68,0.15,todos os estados,2019,7,T7
+2019,Paraíba,PB,55,0.12,todos os estados,2019,7,T7
+2019,Pará,PA,42,0.09,todos os estados,2019,7,T7
+2019,Mato Grosso do Sul,MS,27,0.06,todos os estados,2019,7,T7
+2019,Alagoas,AL,20,0.04,todos os estados,2019,7,T7
+2019,Rondônia,RO,18,0.04,todos os estados,2019,7,T7
+2019,Acre,AC,17,0.04,todos os estados,2019,7,T7
+2019,Roraima,RR,15,0.03,todos os estados,2019,7,T7
+2019,Tocantins,TO,8,0.02,todos os estados,2019,7,T7
+2019,Amapá,AP,1,0.002,todos os estados,2019,7,T7
+2020,Rio de Janeiro,RJ,1716,62.67,todos os estados,2020,7,T6
+2020,São Paulo,SP,267,9.75,todos os estados,2020,7,T6
+2020,Minas Gerais,MG,207,7.56,todos os estados,2020,7,T6
+2020,Bahia,BA,142,5.19,todos os estados,2020,7,T6
+2020,Rio Grande do Sul,RS,113,4.13,todos os estados,2020,7,T6
+2020,Pará,PA,61,2.23,todos os estados,2020,7,T6
+2020,Pernambuco,PE,38,1.39,todos os estados,2020,7,T6
+2020,Paraná,PR,30,1.1,todos os estados,2020,7,T6
+2020,Distrito Federal,DF,30,1.1,todos os estados,2020,7,T6
+2020,Espírito Santo,ES,26,0.95,todos os estados,2020,7,T6
+2020,Ceará,CE,21,0.77,todos os estados,2020,7,T6
+2020,Santa Catarina,SC,19,0.69,todos os estados,2020,7,T6
+2020,Amazonas,AM,18,0.66,todos os estados,2020,7,T6
+2020,Rio Grande do Norte,RN,11,0.4,todos os estados,2020,7,T6
+2020,Mato Grosso,MT,8,0.29,todos os estados,2020,7,T6
+2020,Piauí,PI,8,0.29,todos os estados,2020,7,T6
+2020,Maranhão,MA,6,0.22,todos os estados,2020,7,T6
+2020,Goiás,GO,5,0.18,todos os estados,2020,7,T6
+2020,Alagoas,AL,5,0.18,todos os estados,2020,7,T6
+2020,Paraíba,PB,4,0.15,todos os estados,2020,7,T6
+2020,Mato Grosso do Sul,MS,3,0.11,todos os estados,2020,7,T6
+2021,Rio de Janeiro,RJ,6844,75.79,todos os estados,2021,19,T14
+2021,São Paulo,SP,762,8.44,todos os estados,2021,19,T14
+2021,Minas Gerais,MG,652,7.22,todos os estados,2021,19,T14
+2021,Espírito Santo,ES,120,1.33,todos os estados,2021,19,T14
+2021,Rio Grande do Sul,RS,100,1.11,todos os estados,2021,19,T14
+2021,Bahia,BA,84,0.93,todos os estados,2021,19,T14
+2021,Paraná,PR,75,0.83,todos os estados,2021,19,T14
+2021,Goiás,GO,71,0.79,todos os estados,2021,19,T14
+2021,Distrito Federal,DF,71,0.79,todos os estados,2021,19,T14
+2021,Pernambuco,PE,55,0.61,todos os estados,2021,19,T14
+2021,Santa Catarina,SC,49,0.54,todos os estados,2021,19,T14
+2021,Rio Grande do Norte,RN,33,0.37,todos os estados,2021,19,T14
+2021,Amazonas,AM,23,0.25,todos os estados,2021,19,T14
+2021,Ceará,CE,22,0.24,todos os estados,2021,19,T14
+2021,Pará,PA,19,0.21,todos os estados,2021,19,T14
+2021,Maranhão,MA,11,0.12,todos os estados,2021,19,T14
+2021,Piauí,PI,7,0.08,todos os estados,2021,19,T14
+2021,Paraíba,PB,6,0.07,todos os estados,2021,19,T14
+2021,Mato Grosso do Sul,MS,6,0.07,todos os estados,2021,19,T14
+2021,Mato Grosso,MT,5,0.06,todos os estados,2021,19,T14
+2021,Roraima,RR,5,0.06,todos os estados,2021,19,T14
+2021,Alagoas,AL,3,0.03,todos os estados,2021,19,T14
+2021,Acre,AC,3,0.03,todos os estados,2021,19,T14
+2021,Rondônia,RO,2,0.02,todos os estados,2021,19,T14
+2021,Sergipe,SE,2,0.02,todos os estados,2021,19,T14
+2022,Rio de Janeiro,RJ,7236,75.0,todos os estados,2022,12,Tabela 3
+2022,São Paulo,SP,804,8.33,todos os estados,2022,12,Tabela 3
+2022,Minas Gerais,MG,699,7.25,todos os estados,2022,12,Tabela 3
+2022,Espírito Santo,ES,122,1.26,todos os estados,2022,12,Tabela 3
+2022,Santa Catarina,SC,100,1.04,todos os estados,2022,12,Tabela 3
+2022,Rio Grande do Sul,RS,92,0.95,todos os estados,2022,12,Tabela 3
+2022,Paraná,PR,76,0.79,todos os estados,2022,12,Tabela 3
+2022,Pernambuco,PE,66,0.68,todos os estados,2022,12,Tabela 3
+2022,Distrito Federal,DF,55,0.57,todos os estados,2022,12,Tabela 3
+2022,Bahia,BA,48,0.5,todos os estados,2022,12,Tabela 3
+2022,Ceará,CE,46,0.48,todos os estados,2022,12,Tabela 3
+2022,Rio Grande do Norte,RN,44,0.46,todos os estados,2022,12,Tabela 3
+2022,Pará,PA,38,0.39,todos os estados,2022,12,Tabela 3
+2022,Não informado,N/I,30,0.31,todos os estados,2022,12,Tabela 3
+2022,Goiás,GO,28,0.29,todos os estados,2022,12,Tabela 3
+2022,Alagoas,AL,27,0.28,todos os estados,2022,12,Tabela 3
+2022,Amazonas,AM,26,0.27,todos os estados,2022,12,Tabela 3
+2022,Paraíba,PB,18,0.19,todos os estados,2022,12,Tabela 3
+2022,Mato Grosso do Sul,MS,17,0.18,todos os estados,2022,12,Tabela 3
+2022,Maranhão,MA,16,0.17,todos os estados,2022,12,Tabela 3
+2022,Piauí,PI,13,0.13,todos os estados,2022,12,Tabela 3
+2022,Sergipe,SE,10,0.1,todos os estados,2022,12,Tabela 3
+2022,Acre,AC,8,0.08,todos os estados,2022,12,Tabela 3
+2022,Mato Grosso,MT,7,0.07,todos os estados,2022,12,Tabela 3
+2022,Rondônia,RO,7,0.07,todos os estados,2022,12,Tabela 3
+2022,Amapá,AP,6,0.06,todos os estados,2022,12,Tabela 3
+2022,Roraima,RR,6,0.06,todos os estados,2022,12,Tabela 3
+2022,Tocantins,TO,3,0.03,todos os estados,2022,12,Tabela 3
+2023,Rio de Janeiro,RJ,19427,78.2,todos os estados,2023,12,T7
+2023,Minas Gerais,MG,1650,6.64,todos os estados,2023,12,T7
+2023,São Paulo,SP,1604,6.46,todos os estados,2023,12,T7
+2023,Espírito Santo,ES,281,1.13,todos os estados,2023,12,T7
+2023,Paraná,PR,275,1.11,todos os estados,2023,12,T7
+2023,Rio Grande do Sul,RS,226,0.91,todos os estados,2023,12,T7
+2023,Bahia,BA,208,0.84,todos os estados,2023,12,T7
+2023,Santa Catarina,SC,208,0.84,todos os estados,2023,12,T7
+2023,Pernambuco,PE,154,0.62,todos os estados,2023,12,T7
+2023,Distrito Federal,DF,150,0.6,todos os estados,2023,12,T7
+2023,Rio Grande do Norte,RN,136,0.55,todos os estados,2023,12,T7
+2023,Ceará,CE,98,0.39,todos os estados,2023,12,T7
+2023,Mato Grosso do Sul,MS,63,0.25,todos os estados,2023,12,T7
+2023,Amazonas,AM,53,0.21,todos os estados,2023,12,T7
+2023,Goiás,GO,52,0.21,todos os estados,2023,12,T7
+2023,Pará,PA,52,0.21,todos os estados,2023,12,T7
+2023,Sergipe,SE,42,0.17,todos os estados,2023,12,T7
+2023,Mato Grosso,MT,36,0.14,todos os estados,2023,12,T7
+2023,Paraíba,PB,36,0.14,todos os estados,2023,12,T7
+2023,Maranhão,MA,34,0.14,todos os estados,2023,12,T7
+2023,Alagoas,AL,17,0.07,todos os estados,2023,12,T7
+2023,Piauí,PI,15,0.06,todos os estados,2023,12,T7
+2023,Rondônia,RO,11,0.04,todos os estados,2023,12,T7
+2023,Tocantins,TO,11,0.04,todos os estados,2023,12,T7
+2023,Acre,AC,3,0.01,todos os estados,2023,12,T7

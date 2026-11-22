@@ -1,0 +1,145 @@
+ano,mes,mes_num,canal,atendimentos,fonte_relatorio,fonte_pagina,fonte_tabela
+2017,jan,1,Telefone (0800),209.0,2017,11,T8
+2017,fev,2,Telefone (0800),0.0,2017,11,T8
+2017,mar,3,Telefone (0800),330.0,2017,11,T8
+2017,abr,4,Telefone (0800),749.0,2017,11,T8
+2017,mai,5,Telefone (0800),656.0,2017,11,T8
+2017,jun,6,Telefone (0800),1351.0,2017,11,T8
+2017,jul,7,Telefone (0800),876.0,2017,11,T8
+2017,ago,8,Telefone (0800),465.0,2017,11,T8
+2017,set,9,Telefone (0800),511.0,2017,11,T8
+2017,out,10,Telefone (0800),511.0,2017,11,T8
+2017,nov,11,Telefone (0800),1477.0,2017,11,T8
+2017,dez,12,Telefone (0800),231.0,2017,11,T8
+2018,jan,1,Telefone (0800),306.0,2018,11,T8
+2018,fev,2,Telefone (0800),483.0,2018,11,T8
+2018,mar,3,Telefone (0800),544.0,2018,11,T8
+2018,abr,4,Telefone (0800),435.0,2018,11,T8
+2018,mai,5,Telefone (0800),619.0,2018,11,T8
+2018,jun,6,Telefone (0800),989.0,2018,11,T8
+2018,jul,7,Telefone (0800),627.0,2018,11,T8
+2018,ago,8,Telefone (0800),375.0,2018,11,T8
+2018,set,9,Telefone (0800),418.0,2018,11,T8
+2018,out,10,Telefone (0800),499.0,2018,11,T8
+2018,nov,11,Telefone (0800),998.0,2018,11,T8
+2018,dez,12,Telefone (0800),822.0,2018,11,T8
+2019,jan,1,Telefone (0800),272.0,2019,10,T10
+2019,fev,2,Telefone (0800),221.0,2019,10,T10
+2019,mar,3,Telefone (0800),393.0,2019,10,T10
+2019,abr,4,Telefone (0800),482.0,2019,10,T10
+2019,mai,5,Telefone (0800),503.0,2019,10,T10
+2019,jun,6,Telefone (0800),1209.0,2019,10,T10
+2019,jul,7,Telefone (0800),534.0,2019,10,T10
+2019,ago,8,Telefone (0800),363.0,2019,10,T10
+2019,set,9,Telefone (0800),409.0,2019,10,T10
+2019,out,10,Telefone (0800),561.0,2019,10,T10
+2019,nov,11,Telefone (0800),933.0,2019,10,T10
+2019,dez,12,Telefone (0800),702.0,2019,10,T10
+2020,jan,1,Telefone (0800),378.0,2020,11,T8
+2020,fev,2,Telefone (0800),207.0,2020,11,T8
+2020,mar,3,Telefone (0800),285.0,2020,11,T8
+2020,abr,4,Telefone (0800),63.0,2020,11,T8
+2020,mai,5,Telefone (0800),77.0,2020,11,T8
+2020,jun,6,Telefone (0800),149.0,2020,11,T8
+2020,jul,7,Telefone (0800),311.0,2020,11,T8
+2020,ago,8,Telefone (0800),365.0,2020,11,T8
+2020,set,9,Telefone (0800),314.0,2020,11,T8
+2020,out,10,Telefone (0800),398.0,2020,11,T8
+2020,nov,11,Telefone (0800),288.0,2020,11,T8
+2020,dez,12,Telefone (0800),220.0,2020,11,T8
+2021,jan,1,Telefone (0800),278.0,2021,5,T5
+2021,fev,2,Telefone (0800),247.0,2021,5,T5
+2021,mar,3,Telefone (0800),324.0,2021,5,T5
+2021,abr,4,Telefone (0800),233.0,2021,5,T5
+2021,mai,5,Telefone (0800),293.0,2021,5,T5
+2021,jun,6,Telefone (0800),498.0,2021,5,T5
+2021,jul,7,Telefone (0800),527.0,2021,5,T5
+2021,ago,8,Telefone (0800),263.0,2021,5,T5
+2021,set,9,Telefone (0800),254.0,2021,5,T5
+2021,out,10,Telefone (0800),298.0,2021,5,T5
+2021,nov,11,Telefone (0800),356.0,2021,5,T5
+2021,dez,12,Telefone (0800),357.0,2021,5,T5
+2021,jan,1,WhatsApp,,2021,5,T5
+2021,fev,2,WhatsApp,,2021,5,T5
+2021,mar,3,WhatsApp,,2021,5,T5
+2021,abr,4,WhatsApp,,2021,5,T5
+2021,mai,5,WhatsApp,271.0,2021,5,T5
+2021,jun,6,WhatsApp,338.0,2021,5,T5
+2021,jul,7,WhatsApp,496.0,2021,5,T5
+2021,ago,8,WhatsApp,228.0,2021,5,T5
+2021,set,9,WhatsApp,222.0,2021,5,T5
+2021,out,10,WhatsApp,214.0,2021,5,T5
+2021,nov,11,WhatsApp,266.0,2021,5,T5
+2021,dez,12,WhatsApp,324.0,2021,5,T5
+2022,jan,1,Telefone (0800),183.0,2022,4,Quadro 1
+2022,fev,2,Telefone (0800),125.0,2022,4,Quadro 1
+2022,mar,3,Telefone (0800),146.0,2022,4,Quadro 1
+2022,abr,4,Telefone (0800),224.0,2022,4,Quadro 1
+2022,mai,5,Telefone (0800),174.0,2022,4,Quadro 1
+2022,jun,6,Telefone (0800),168.0,2022,4,Quadro 1
+2022,jul,7,Telefone (0800),232.0,2022,4,Quadro 1
+2022,ago,8,Telefone (0800),356.0,2022,4,Quadro 1
+2022,set,9,Telefone (0800),194.0,2022,4,Quadro 1
+2022,out,10,Telefone (0800),228.0,2022,4,Quadro 1
+2022,nov,11,Telefone (0800),223.0,2022,4,Quadro 1
+2022,dez,12,Telefone (0800),256.0,2022,4,Quadro 1
+2022,jan,1,WhatsApp,162.0,2022,4,Quadro 1
+2022,fev,2,WhatsApp,99.0,2022,4,Quadro 1
+2022,mar,3,WhatsApp,132.0,2022,4,Quadro 1
+2022,abr,4,WhatsApp,130.0,2022,4,Quadro 1
+2022,mai,5,WhatsApp,131.0,2022,4,Quadro 1
+2022,jun,6,WhatsApp,134.0,2022,4,Quadro 1
+2022,jul,7,WhatsApp,230.0,2022,4,Quadro 1
+2022,ago,8,WhatsApp,296.0,2022,4,Quadro 1
+2022,set,9,WhatsApp,159.0,2022,4,Quadro 1
+2022,out,10,WhatsApp,181.0,2022,4,Quadro 1
+2022,nov,11,WhatsApp,234.0,2022,4,Quadro 1
+2022,dez,12,WhatsApp,231.0,2022,4,Quadro 1
+2023,jan,1,Telefone (0800),104.0,2023,21,T11
+2023,fev,2,Telefone (0800),85.0,2023,21,T11
+2023,mar,3,Telefone (0800),119.0,2023,21,T11
+2023,abr,4,Telefone (0800),151.0,2023,21,T11
+2023,mai,5,Telefone (0800),172.0,2023,21,T11
+2023,jun,6,Telefone (0800),261.0,2023,21,T11
+2023,jul,7,Telefone (0800),109.0,2023,21,T11
+2023,ago,8,Telefone (0800),135.0,2023,21,T11
+2023,set,9,Telefone (0800),117.0,2023,21,T11
+2023,out,10,Telefone (0800),140.0,2023,21,T11
+2023,nov,11,Telefone (0800),134.0,2023,21,T11
+2023,dez,12,Telefone (0800),76.0,2023,21,T11
+2023,jan,1,WhatsApp,146.0,2023,21,T11
+2023,fev,2,WhatsApp,150.0,2023,21,T11
+2023,mar,3,WhatsApp,136.0,2023,21,T11
+2023,abr,4,WhatsApp,217.0,2023,21,T11
+2023,mai,5,WhatsApp,301.0,2023,21,T11
+2023,jun,6,WhatsApp,527.0,2023,21,T11
+2023,jul,7,WhatsApp,328.0,2023,21,T11
+2023,ago,8,WhatsApp,204.0,2023,21,T11
+2023,set,9,WhatsApp,137.0,2023,21,T11
+2023,out,10,WhatsApp,168.0,2023,21,T11
+2023,nov,11,WhatsApp,252.0,2023,21,T11
+2023,dez,12,WhatsApp,240.0,2023,21,T11
+2024,jan,1,Telefone (0800),89.0,2024,1,T1
+2024,fev,2,Telefone (0800),79.0,2024,1,T1
+2024,mar,3,Telefone (0800),28.0,2024,1,T1
+2024,abr,4,Telefone (0800),65.0,2024,1,T1
+2024,mai,5,Telefone (0800),98.0,2024,1,T1
+2024,jun,6,Telefone (0800),159.0,2024,1,T1
+2024,jul,7,Telefone (0800),108.0,2024,1,T1
+2024,ago,8,Telefone (0800),74.0,2024,1,T1
+2024,set,9,Telefone (0800),54.0,2024,1,T1
+2024,out,10,Telefone (0800),58.0,2024,1,T1
+2024,nov,11,Telefone (0800),67.0,2024,1,T1
+2024,dez,12,Telefone (0800),62.0,2024,1,T1
+2024,jan,1,WhatsApp,191.0,2024,1,T1
+2024,fev,2,WhatsApp,151.0,2024,1,T1
+2024,mar,3,WhatsApp,138.0,2024,1,T1
+2024,abr,4,WhatsApp,195.0,2024,1,T1
+2024,mai,5,WhatsApp,246.0,2024,1,T1
+2024,jun,6,WhatsApp,407.0,2024,1,T1
+2024,jul,7,WhatsApp,280.0,2024,1,T1
+2024,ago,8,WhatsApp,246.0,2024,1,T1
+2024,set,9,WhatsApp,173.0,2024,1,T1
+2024,out,10,WhatsApp,202.0,2024,1,T1
+2024,nov,11,WhatsApp,213.0,2024,1,T1
+2024,dez,12,WhatsApp,239.0,2024,1,T1

@@ -1,0 +1,145 @@
+ano,mes,mes_num,indicador,quantidade,fonte_relatorio,fonte_pagina,fonte_tabela
+2021,jan,1,Carimbo no passaporte,8.0,2021,33,T27
+2021,fev,2,Carimbo no passaporte,10.0,2021,33,T27
+2021,mar,3,Carimbo no passaporte,11.0,2021,33,T27
+2021,abr,4,Carimbo no passaporte,2.0,2021,33,T27
+2021,mai,5,Carimbo no passaporte,5.0,2021,33,T27
+2021,jun,6,Carimbo no passaporte,30.0,2021,33,T27
+2021,jul,7,Carimbo no passaporte,56.0,2021,33,T27
+2021,ago,8,Carimbo no passaporte,32.0,2021,33,T27
+2021,set,9,Carimbo no passaporte,40.0,2021,33,T27
+2021,out,10,Carimbo no passaporte,63.0,2021,33,T27
+2021,nov,11,Carimbo no passaporte,38.0,2021,33,T27
+2021,dez,12,Carimbo no passaporte,16.0,2021,33,T27
+2021,jan,1,Passaporte emitido,60.0,2021,33,T27
+2021,fev,2,Passaporte emitido,44.0,2021,33,T27
+2021,mar,3,Passaporte emitido,43.0,2021,33,T27
+2021,abr,4,Passaporte emitido,36.0,2021,33,T27
+2021,mai,5,Passaporte emitido,36.0,2021,33,T27
+2021,jun,6,Passaporte emitido,96.0,2021,33,T27
+2021,jul,7,Passaporte emitido,113.0,2021,33,T27
+2021,ago,8,Passaporte emitido,83.0,2021,33,T27
+2021,set,9,Passaporte emitido,96.0,2021,33,T27
+2021,out,10,Passaporte emitido,60.0,2021,33,T27
+2021,nov,11,Passaporte emitido,36.0,2021,33,T27
+2021,dez,12,Passaporte emitido,14.0,2021,33,T27
+2021,jan,1,Total de viajantes,68.0,2021,33,T27
+2021,fev,2,Total de viajantes,54.0,2021,33,T27
+2021,mar,3,Total de viajantes,54.0,2021,33,T27
+2021,abr,4,Total de viajantes,38.0,2021,33,T27
+2021,mai,5,Total de viajantes,41.0,2021,33,T27
+2021,jun,6,Total de viajantes,126.0,2021,33,T27
+2021,jul,7,Total de viajantes,169.0,2021,33,T27
+2021,ago,8,Total de viajantes,115.0,2021,33,T27
+2021,set,9,Total de viajantes,136.0,2021,33,T27
+2021,out,10,Total de viajantes,123.0,2021,33,T27
+2021,nov,11,Total de viajantes,74.0,2021,33,T27
+2021,dez,12,Total de viajantes,30.0,2021,33,T27
+2022,jan,1,Carimbo no passaporte,34.0,2022,44,Tabela 22
+2022,fev,2,Carimbo no passaporte,15.0,2022,44,Tabela 22
+2022,mar,3,Carimbo no passaporte,4.0,2022,44,Tabela 22
+2022,abr,4,Carimbo no passaporte,0.0,2022,44,Tabela 22
+2022,mai,5,Carimbo no passaporte,13.0,2022,44,Tabela 22
+2022,jun,6,Carimbo no passaporte,18.0,2022,44,Tabela 22
+2022,jul,7,Carimbo no passaporte,37.0,2022,44,Tabela 22
+2022,ago,8,Carimbo no passaporte,25.0,2022,44,Tabela 22
+2022,set,9,Carimbo no passaporte,34.0,2022,44,Tabela 22
+2022,out,10,Carimbo no passaporte,32.0,2022,44,Tabela 22
+2022,nov,11,Carimbo no passaporte,30.0,2022,44,Tabela 22
+2022,dez,12,Carimbo no passaporte,17.0,2022,44,Tabela 22
+2022,jan,1,Passaporte emitido,65.0,2022,44,Tabela 22
+2022,fev,2,Passaporte emitido,71.0,2022,44,Tabela 22
+2022,mar,3,Passaporte emitido,21.0,2022,44,Tabela 22
+2022,abr,4,Passaporte emitido,47.0,2022,44,Tabela 22
+2022,mai,5,Passaporte emitido,44.0,2022,44,Tabela 22
+2022,jun,6,Passaporte emitido,69.0,2022,44,Tabela 22
+2022,jul,7,Passaporte emitido,113.0,2022,44,Tabela 22
+2022,ago,8,Passaporte emitido,85.0,2022,44,Tabela 22
+2022,set,9,Passaporte emitido,99.0,2022,44,Tabela 22
+2022,out,10,Passaporte emitido,62.0,2022,44,Tabela 22
+2022,nov,11,Passaporte emitido,79.0,2022,44,Tabela 22
+2022,dez,12,Passaporte emitido,70.0,2022,44,Tabela 22
+2022,jan,1,Total de viajantes,99.0,2022,44,Tabela 22
+2022,fev,2,Total de viajantes,86.0,2022,44,Tabela 22
+2022,mar,3,Total de viajantes,25.0,2022,44,Tabela 22
+2022,abr,4,Total de viajantes,47.0,2022,44,Tabela 22
+2022,mai,5,Total de viajantes,57.0,2022,44,Tabela 22
+2022,jun,6,Total de viajantes,87.0,2022,44,Tabela 22
+2022,jul,7,Total de viajantes,150.0,2022,44,Tabela 22
+2022,ago,8,Total de viajantes,110.0,2022,44,Tabela 22
+2022,set,9,Total de viajantes,133.0,2022,44,Tabela 22
+2022,out,10,Total de viajantes,94.0,2022,44,Tabela 22
+2022,nov,11,Total de viajantes,109.0,2022,44,Tabela 22
+2022,dez,12,Total de viajantes,87.0,2022,44,Tabela 22
+2023,jan,1,Carimbo no passaporte,44.0,2023,34,T20
+2023,fev,2,Carimbo no passaporte,11.0,2023,34,T20
+2023,mar,3,Carimbo no passaporte,24.0,2023,34,T20
+2023,abr,4,Carimbo no passaporte,57.0,2023,34,T20
+2023,mai,5,Carimbo no passaporte,22.0,2023,34,T20
+2023,jun,6,Carimbo no passaporte,33.0,2023,34,T20
+2023,jul,7,Carimbo no passaporte,131.0,2023,34,T20
+2023,ago,8,Carimbo no passaporte,45.0,2023,34,T20
+2023,set,9,Carimbo no passaporte,36.0,2023,34,T20
+2023,out,10,Carimbo no passaporte,61.0,2023,34,T20
+2023,nov,11,Carimbo no passaporte,42.0,2023,34,T20
+2023,dez,12,Carimbo no passaporte,36.0,2023,34,T20
+2023,jan,1,Passaporte emitido,55.0,2023,34,T20
+2023,fev,2,Passaporte emitido,68.0,2023,34,T20
+2023,mar,3,Passaporte emitido,35.0,2023,34,T20
+2023,abr,4,Passaporte emitido,78.0,2023,34,T20
+2023,mai,5,Passaporte emitido,62.0,2023,34,T20
+2023,jun,6,Passaporte emitido,80.0,2023,34,T20
+2023,jul,7,Passaporte emitido,111.0,2023,34,T20
+2023,ago,8,Passaporte emitido,80.0,2023,34,T20
+2023,set,9,Passaporte emitido,70.0,2023,34,T20
+2023,out,10,Passaporte emitido,105.0,2023,34,T20
+2023,nov,11,Passaporte emitido,107.0,2023,34,T20
+2023,dez,12,Passaporte emitido,58.0,2023,34,T20
+2023,jan,1,Total de viajantes,99.0,2023,34,T20
+2023,fev,2,Total de viajantes,79.0,2023,34,T20
+2023,mar,3,Total de viajantes,59.0,2023,34,T20
+2023,abr,4,Total de viajantes,135.0,2023,34,T20
+2023,mai,5,Total de viajantes,84.0,2023,34,T20
+2023,jun,6,Total de viajantes,113.0,2023,34,T20
+2023,jul,7,Total de viajantes,242.0,2023,34,T20
+2023,ago,8,Total de viajantes,125.0,2023,34,T20
+2023,set,9,Total de viajantes,106.0,2023,34,T20
+2023,out,10,Total de viajantes,166.0,2023,34,T20
+2023,nov,11,Total de viajantes,149.0,2023,34,T20
+2023,dez,12,Total de viajantes,94.0,2023,34,T20
+2024,jan,1,Carimbo no passaporte,50.0,2024,16,T9
+2024,fev,2,Carimbo no passaporte,25.0,2024,16,T9
+2024,mar,3,Carimbo no passaporte,28.0,2024,16,T9
+2024,abr,4,Carimbo no passaporte,54.0,2024,16,T9
+2024,mai,5,Carimbo no passaporte,43.0,2024,16,T9
+2024,jun,6,Carimbo no passaporte,58.0,2024,16,T9
+2024,jul,7,Carimbo no passaporte,125.0,2024,16,T9
+2024,ago,8,Carimbo no passaporte,74.0,2024,16,T9
+2024,set,9,Carimbo no passaporte,39.0,2024,16,T9
+2024,out,10,Carimbo no passaporte,35.0,2024,16,T9
+2024,nov,11,Carimbo no passaporte,56.0,2024,16,T9
+2024,dez,12,Carimbo no passaporte,98.0,2024,16,T9
+2024,jan,1,Passaporte emitido,78.0,2024,16,T9
+2024,fev,2,Passaporte emitido,99.0,2024,16,T9
+2024,mar,3,Passaporte emitido,43.0,2024,16,T9
+2024,abr,4,Passaporte emitido,73.0,2024,16,T9
+2024,mai,5,Passaporte emitido,57.0,2024,16,T9
+2024,jun,6,Passaporte emitido,86.0,2024,16,T9
+2024,jul,7,Passaporte emitido,120.0,2024,16,T9
+2024,ago,8,Passaporte emitido,74.0,2024,16,T9
+2024,set,9,Passaporte emitido,78.0,2024,16,T9
+2024,out,10,Passaporte emitido,46.0,2024,16,T9
+2024,nov,11,Passaporte emitido,61.0,2024,16,T9
+2024,dez,12,Passaporte emitido,60.0,2024,16,T9
+2024,jan,1,Total de viajantes,128.0,2024,16,T9
+2024,fev,2,Total de viajantes,124.0,2024,16,T9
+2024,mar,3,Total de viajantes,71.0,2024,16,T9
+2024,abr,4,Total de viajantes,127.0,2024,16,T9
+2024,mai,5,Total de viajantes,100.0,2024,16,T9
+2024,jun,6,Total de viajantes,144.0,2024,16,T9
+2024,jul,7,Total de viajantes,245.0,2024,16,T9
+2024,ago,8,Total de viajantes,148.0,2024,16,T9
+2024,set,9,Total de viajantes,117.0,2024,16,T9
+2024,out,10,Total de viajantes,81.0,2024,16,T9
+2024,nov,11,Total de viajantes,117.0,2024,16,T9
+2024,dez,12,Total de viajantes,158.0,2024,16,T9
