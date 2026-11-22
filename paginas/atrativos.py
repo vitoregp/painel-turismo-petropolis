@@ -11,7 +11,7 @@ anual = dados.atrativos_anual()
 mensal = dados.atrativos_mensal()
 anos = sorted(anual["ano"].unique())
 
-# ------------------------------------------------------------ filtros (uma linha)
+# Filtros
 f1, f2, f3, f4, f5 = st.columns([1.7, 1.5, 3.4, 2.3, 1.5])
 periodo = f1.select_slider("Período", options=anos, value=(anos[0], anos[-1]))
 categoria = f2.selectbox("Categoria", ["Todas"] + dados.CATEGORIAS)
@@ -50,7 +50,7 @@ cores_nome = {E.curto(k): v for k, v in cores.items()}
 
 aba1, aba2, aba3, aba4 = st.tabs(["Evolução anual", "Sazonalidade", f"Ranking de {periodo[1]}", "Dados"])
 
-# ----------------------------------------------------------------- evolução
+# Evolução
 with aba1:
     serie = sel.copy()
     titulo_y, fmt, log = "Visitantes", ",.0f", False
@@ -75,7 +75,7 @@ with aba1:
     larga.columns.name = None
     E.tabela(larga, "atrativos_evolucao_anual.csv")
 
-# ------------------------------------------------------------- sazonalidade
+# Sazonalidade
 with aba2:
     m = mensal[mensal["atrativo"].isin(selecionados) & mensal["ano"].between(*periodo)].copy()
     if not incluir_nc:
@@ -115,7 +115,7 @@ with aba2:
     else:
         st.info("Sem dados mensais para este atrativo no período.")
 
-# ------------------------------------------------------------------ ranking
+# Ranking
 with aba3:
     ano_r = periodo[1]
     r = base[(base["ano"] == ano_r) & (base["atrativo"] != "PARNASO – total das 3 sedes")].copy()
@@ -144,7 +144,7 @@ with aba3:
         E.nota("O total das 3 sedes do PARNASO fica fora do ranking para não contar a visitação em dobro; "
                "as sedes Teresópolis e Guapimirim ficam fora do município, mas aparecem nos relatórios.")
 
-# -------------------------------------------------------------------- dados
+# Dados
 with aba4:
     st.markdown("**Visitação anual** (atrativos e período filtrados)")
     E.tabela(sel.drop(columns=["nome", "detalhe", "parcial", "ancora"]), "atrativos_anual_filtrado.csv",

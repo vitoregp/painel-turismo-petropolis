@@ -15,7 +15,7 @@ cap = dados.capacidade_tipo().groupby("ano", as_index=False)[["mhs", "uhs", "lei
 atr = dados.atrativos_anual()
 anos = sorted(set(anc["ano"]) | set(oc["ano"]) | set(ci["ano"]))
 
-# ------------------------------------------------------------ filtro (uma linha)
+# Filtro
 f1, _ = st.columns([1, 3])
 ano = f1.selectbox("Ano de referência", anos[::-1], index=0)
 
@@ -27,7 +27,7 @@ def valor(df: pd.DataFrame, col: str, a: int):
 
 ant = ano - 1
 
-# ------------------------------------------------------------------ indicadores
+# Indicadores
 linha1 = st.columns(3)
 linha2 = st.columns(3)
 
@@ -65,7 +65,7 @@ if base19 and atual and ano > 2019:
 
 st.write("")
 
-# ------------------------------------------------------------------- gráficos
+# Gráficos
 c1, c2 = st.columns(2, gap="large")
 with c1:
     E.titulo_grafico("Visitação nos 6 atrativos-âncora", "Visitantes por ano")

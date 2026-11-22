@@ -15,7 +15,7 @@ aba1, aba2 = st.tabs(["Ocupação hoteleira", "Capacidade da rede"])
 
 RECORTES = {"Média geral": "taxa_media_pct", "1º distrito": "distrito_1_pct", "2º ao 5º distrito": "distritos_2a5_pct"}
 
-# ------------------------------------------------------------------ ocupação
+# Ocupação
 with aba1:
     anos_oc = sorted(oc["ano"].unique())
     f1, f2, _ = st.columns([4, 2.4, 1.6])
@@ -56,7 +56,7 @@ with aba1:
     E.mostrar(fig, "oc_distritos")
     E.tabela(oc_anual, "ocupacao_media_anual.csv", chave="dl_oc_anual")
 
-# ---------------------------------------------------------------- capacidade
+# Capacidade
 with aba2:
     MEDIDAS = {"Leitos": "leitos", "Unidades habitacionais (UHs)": "uhs", "Meios de hospedagem (MHs)": "mhs"}
     anos_cap = sorted(tipo["ano"].unique())

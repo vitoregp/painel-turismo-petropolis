@@ -12,7 +12,7 @@ pai = dados.paises()
 
 aba1, aba2, aba3 = st.tabs(["Nacionais × internacionais", "Estados de origem", "Países de origem"])
 
-# ------------------------------------------------------- nacionais x internacionais
+# Nacionais x internacionais
 with aba1:
     c1, c2 = st.columns(2, gap="large")
     with c1:
@@ -37,7 +37,7 @@ with aba1:
 
 
 def bloco_origem(df, coluna, rotulo, anos, padrao_evolucao, chave, excluir_rotulo=None, excluir_valor=None):
-    """Ranking do ano + evolução da participação. Filtros numa única linha no topo da aba."""
+    """Ranking do ano e evolução da participação de cada origem."""
     f1, f2, f3, f4 = st.columns([1.2, 1.6, 3.6, 1.8])
     ano = f1.selectbox("Ano", anos[::-1], key=f"{chave}_ano")
     top_n = f2.slider("Quantos no ranking", 5, 15, 10, key=f"{chave}_n")

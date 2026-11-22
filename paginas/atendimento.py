@@ -14,7 +14,7 @@ ped = dados.pedagogico()
 aba1, aba2, aba3 = st.tabs(["Disque Turismo", "Estrada Real", "Turismo pedagógico"])
 CORES_CANAL = {"Telefone (0800)": E.CATEGORICA[0], "WhatsApp": E.CATEGORICA[2]}
 
-# ----------------------------------------------------------------- disque
+# Disque
 with aba1:
     f1, _ = st.columns([1.2, 6.8])
     anos_m = sorted(dqm["ano"].unique())
@@ -34,7 +34,7 @@ with aba1:
     E.tabela(dqm.drop(columns=["fonte_relatorio"]), "disque_turismo_mensal.csv", rotulo="Ver dados mensais",
              chave="dl_dq_m")
 
-# ------------------------------------------------------------ estrada real
+# Estrada real
 with aba2:
     f1, _ = st.columns([1.2, 6.8])
     anos_e = sorted(er["ano"].unique())
@@ -58,7 +58,7 @@ with aba2:
     E.mostrar(fig, "er_mensal")
     E.tabela(er.drop(columns=["fonte_relatorio"]), "estrada_real_mensal.csv")
 
-# -------------------------------------------------------------- pedagógico
+# Pedagógico
 with aba3:
     anos_p = sorted(ped.dropna(subset=["visitacao_escolar"])["ano"].unique())
     f1, _ = st.columns([1.2, 6.8])
