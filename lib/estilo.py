@@ -157,10 +157,10 @@ def layout(fig: go.Figure, altura: int = 360, legenda: bool = True, hover: str =
         bargap=0.35,
         barcornerradius=4,
     )
-    fig.update_xaxes(showgrid=False, zeroline=False, showline=True, linecolor=GRADE, linewidth=1,
+    fig.update_xaxes(showgrid=False, zeroline=False, showline=True, linecolor=GRADE, linewidth=1, automargin=True,
                      ticks="outside", tickcolor=GRADE, ticklen=4, tickfont=dict(color=TINTA_FRACA, size=12),
                      title_font=dict(color=TINTA_2, size=12))
-    fig.update_yaxes(showgrid=True, gridcolor=GRADE, gridwidth=1, zeroline=False, showline=False,
+    fig.update_yaxes(showgrid=True, gridcolor=GRADE, gridwidth=1, zeroline=False, showline=False, automargin=True,
                      tickfont=dict(color=TINTA_FRACA, size=12), title_font=dict(color=TINTA_2, size=12))
     return fig
 
