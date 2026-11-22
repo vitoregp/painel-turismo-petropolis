@@ -1,4 +1,4 @@
-"""Identidade visual, formatação pt-BR e ajudantes de gráfico (Plotly) do painel."""
+"""Cores, formatação no padrão brasileiro e funções de gráfico (Plotly) do painel."""
 from __future__ import annotations
 
 import io
@@ -8,7 +8,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-# ----------------------------------------------------------------- tokens
+# Cores e fontes
 SUPERFICIE = "#fcfcfb"
 TINTA = "#0b0b0b"
 TINTA_2 = "#52514e"
@@ -16,14 +16,14 @@ TINTA_FRACA = "#898781"
 GRADE = "#e1e0d9"
 FONTE = '"Source Sans Pro", "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif'
 
-# Paleta categórica — ordem fixa, validada (scripts do skill de dataviz): nunca ciclar além de 8.
+# Paleta de 8 cores em ordem fixa (testada para daltonismo).
 CATEGORICA = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6", "#e34948"]
-# Rampa sequencial (um só matiz, claro → escuro) para magnitudes em mapas de calor.
+# Tons de azul, do claro ao escuro, para os mapas de calor.
 SEQUENCIAL = ["#cde2fb", "#b7d3f6", "#9ec5f4", "#86b6ef", "#6da7ec", "#5598e7", "#3987e5",
               "#2a78d6", "#256abf", "#1c5cab", "#184f95", "#104281", "#0d366b"]
 DESTAQUE = CATEGORICA[0]
-DIVERGENTE_POS = "#2a78d6"  # polo frio (alta)
-DIVERGENTE_NEG = "#e34948"  # polo quente (queda); ponto médio neutro = cinza
+DIVERGENTE_POS = "#2a78d6"  # alta
+DIVERGENTE_NEG = "#e34948"  # queda
 NEUTRO = "#c9c7bf"
 
 MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
@@ -56,7 +56,7 @@ def curto(nome: str) -> str:
     return NOME_CURTO.get(nome, nome)
 
 
-# ------------------------------------------------------------- formatação
+# Formatação
 def _br(txt: str) -> str:
     return txt.replace(",", "§").replace(".", ",").replace("§", ".")
 
@@ -93,7 +93,7 @@ def delta_pp(atual, anterior) -> str | None:
     return f"{'+' if v >= 0 else '-'}{fmt_dec(abs(v), 1)} p.p."
 
 
-# ------------------------------------------------------------------- CSS
+# CSS
 def css() -> None:
     st.markdown(
         """
@@ -121,9 +121,9 @@ def titulo_grafico(titulo: str, subtitulo: str | None = None) -> None:
         st.caption(subtitulo)
 
 
-# ----------------------------------------------------- cores estáveis
+# Cores estáveis
 def cores_estaveis(chave: str, itens: list[str]) -> dict[str, str]:
-    """Cada entidade mantém a mesma cor enquanto estiver selecionada (não repinta ao filtrar)."""
+    """Mantém a mesma cor para cada item enquanto ele estiver selecionado."""
     mapa: dict[str, int] = st.session_state.setdefault(f"_cores_{chave}", {})
     for k in list(mapa):
         if k not in itens:
@@ -139,7 +139,7 @@ def cores_fixas(itens: list[str]) -> dict[str, str]:
     return {it: CATEGORICA[i] for i, it in enumerate(itens[: len(CATEGORICA)])}
 
 
-# ---------------------------------------------------------- layout base
+# Layout base
 def layout(fig: go.Figure, altura: int = 360, legenda: bool = True, hover: str = "x unified",
            margem_direita: int = 16) -> go.Figure:
     fig.update_layout(
@@ -183,10 +183,10 @@ def eixo_anos(fig: go.Figure, anos) -> None:
 
 def rotulos_diretos(fig: go.Figure, pontos: list[tuple[str, float, float, str]], log: bool = False,
                     eixo: tuple[float, float] | None = None, altura: int = 360) -> None:
-    """Rótulo no fim de cada linha (até 4 séries), afastando rótulos que se sobrepõem.
+    """Escreve o nome de cada série no fim da linha, sem deixar os nomes se sobreporem.
 
-    pontos: (texto, x, y, cor) — o texto usa tinta secundária; um traço colorido indica a série.
-    eixo: (mín, máx) do eixo y em unidades de dado, para converter 16 px de folga em unidades.
+    pontos: lista de (texto, x, y, cor).
+    eixo: mínimo e máximo do eixo y, usados para calcular o espaço entre os nomes.
     """
     if not pontos:
         return
@@ -206,14 +206,14 @@ def rotulos_diretos(fig: go.Figure, pontos: list[tuple[str, float, float, str]],
         for i in ordem:
             pos[i] -= excesso
     for i, (texto, x, _y, cor) in enumerate(pontos):
-        # em eixo log o Plotly espera a posição da anotação em log10 — `pos` já está nessa escala
+        # no eixo log, o Plotly usa a posição da anotação em log10
         fig.add_annotation(x=x, y=pos[i], xref="x", yref="y",
                            text=f'<span style="color:{cor}">━</span> {texto}', showarrow=False,
                            xanchor="left", xshift=10, font=dict(size=12, color=TINTA_2), align="left")
 
 
 def destacar_ponto(fig: go.Figure, x, y, texto: str, cor: str = DESTAQUE) -> None:
-    """Rótulo seletivo: destaca um único ponto (o ano escolhido) com marcador maior e o valor."""
+    """Destaca o ponto do ano escolhido, com marcador maior e o valor."""
     if y is None or pd.isna(y):
         return
     fig.add_trace(go.Scatter(x=[x], y=[y], mode="markers", showlegend=False, hoverinfo="skip",
@@ -222,16 +222,16 @@ def destacar_ponto(fig: go.Figure, x, y, texto: str, cor: str = DESTAQUE) -> Non
                        font=dict(size=12, color=TINTA), bgcolor=SUPERFICIE)
 
 
-# --------------------------------------------------------------- gráficos
+# Gráficos
 def grafico_linhas(df: pd.DataFrame, x: str, y: str, serie: str | None, cores: dict[str, str] | str,
                    fmt_y: str = ",.0f", sufixo: str = "", titulo_y: str = "", anual: bool = True,
                    pandemia: bool = False, log: bool = False, altura: int = 360, direto: bool = True,
                    marcadores: bool = True, aberto: str | None = None, hover_extra: str | None = None,
                    nomes: dict[str, str] | None = None, ordem_x: list | None = None,
                    nome_serie: str | None = None, fmt_hover: str | None = None) -> go.Figure:
-    """Linhas finas (2px); legenda sempre que houver ≥2 séries; rótulos diretos até 4 séries.
+    """Gráfico de linhas, com legenda e o nome no fim de cada linha (até 4 séries).
 
-    aberto: nome de uma coluna booleana — True desenha marcador vazado (dado parcial/não conferido).
+    aberto: coluna booleana; quando verdadeira, o ponto é vazado (dado parcial ou não conferido).
     """
     fig = go.Figure()
     grupos = [(None, df)] if serie is None else list(df.groupby(serie, sort=False))
@@ -275,7 +275,7 @@ def grafico_linhas(df: pd.DataFrame, x: str, y: str, serie: str | None, cores: d
 def grafico_barras_h(df: pd.DataFrame, rotulo: str, valor: str, fmt: str = ",.0f", sufixo: str = "",
                      cor: str = DESTAQUE, altura: int | None = None, rotular_topo: bool = True,
                      titulo_x: str = "", hover_extra: str | None = None, fmt_texto=None) -> go.Figure:
-    """Ranking em barras horizontais: uma série = uma cor; só o maior valor recebe rótulo."""
+    """Ranking em barras horizontais, com o valor escrito só na maior barra."""
     d = df.sort_values(valor, ascending=True)
     fmt_texto = fmt_texto or fmt_int
     textos = [""] * len(d)
@@ -323,7 +323,7 @@ def grafico_barras_empilhadas(df: pd.DataFrame, x: str, y: str, serie: str, core
 
 def mapa_calor(matriz: pd.DataFrame, fmt: str = ",.0f", sufixo: str = "", titulo_escala: str = "",
                altura: int | None = None) -> go.Figure:
-    """Mapa de calor ano × mês com rampa sequencial de um só matiz."""
+    """Mapa de calor por ano e mês, em tons de azul."""
     escala = [[i / (len(SEQUENCIAL) - 1), c] for i, c in enumerate(SEQUENCIAL)]
     fig = go.Figure(go.Heatmap(
         z=matriz.values, x=list(matriz.columns), y=[str(i) for i in matriz.index],
@@ -341,7 +341,7 @@ def mapa_calor(matriz: pd.DataFrame, fmt: str = ",.0f", sufixo: str = "", titulo
 
 def grafico_variacao(df: pd.DataFrame, rotulo: str, valor: str, altura: int | None = None,
                      titulo_x: str = "Variação (%)") -> go.Figure:
-    """Barras divergentes: azul = alta, vermelho = queda, linha neutra no zero."""
+    """Barras de variação: azul para alta, vermelho para queda."""
     d = df.sort_values(valor, ascending=True)
     cores = [DIVERGENTE_POS if v >= 0 else DIVERGENTE_NEG for v in d[valor]]
     fig = go.Figure(go.Bar(
@@ -355,7 +355,7 @@ def grafico_variacao(df: pd.DataFrame, rotulo: str, valor: str, altura: int | No
     return fig
 
 
-# ------------------------------------------------------------- tabela
+# Tabela
 def _csv_br(df: pd.DataFrame) -> bytes:
     buf = io.StringIO()
     df.to_csv(buf, index=False, sep=";", decimal=",")
@@ -379,7 +379,7 @@ def estilo_tabela(df: pd.DataFrame):
 
 def tabela(df: pd.DataFrame, nome_arquivo: str, rotulo: str = "Ver dados em tabela", aberto: bool = False,
            chave: str | None = None) -> None:
-    """Versão em tabela de cada gráfico (acessível) + download em CSV compatível com Excel pt-BR."""
+    """Tabela com os dados do gráfico e botão para baixar o CSV no formato do Excel em português."""
     with st.expander(rotulo, expanded=aberto):
         st.dataframe(estilo_tabela(df), hide_index=True, use_container_width=True)
         st.download_button("Baixar CSV", data=_csv_br(df), file_name=nome_arquivo, mime="text/csv",
