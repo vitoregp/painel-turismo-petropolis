@@ -283,7 +283,7 @@ def preparar_procedencia(ent: Path, saida: Path) -> None:
         try:
             etapa(ent, saida)
         except FileNotFoundError as e:
-            print(f"  — {etapa.__name__.strip('_')}: pulado, falta o arquivo de origem {Path(e.filename).name}")
+            print(f"  {etapa.__name__.strip('_')}: pulado, falta o arquivo de origem {Path(e.filename).name}")
 
 
 def _procedencia_estados(ent: Path, saida: Path) -> None:
@@ -362,7 +362,7 @@ def preparar_pedagogico(ent: Path, saida: Path) -> None:
     t = ler(ent / "consolidado" / "turismo_pedagogico_anual.csv")
     t["atrativo"] = t["atrativo"].map(lambda x: canon_atrativo(x) or x)
     for c in ("visitacao_total", "visitacao_escolar", "pct_escolar", "pct_visitacao_escolar"):
-        if c not in t:            # 2015–2016 só têm o percentual; 2017+ só as contagens
+        if c not in t:            # 2015-2016 só têm o percentual; 2017+ só as contagens
             t[c] = float("nan")
     t["pct_escolar"] = t["pct_escolar"].fillna(t["pct_visitacao_escolar"])
     t = t[~((t["visitacao_total"] == 0) & t["visitacao_escolar"].isna())]
@@ -379,15 +379,15 @@ def executar(entrada, saida) -> None:
     """Gera a base do painel a partir da pasta datasets/."""
     ent, saida = Path(entrada), Path(saida)
     saida.mkdir(parents=True, exist_ok=True)
-    print(f"Lendo {ent} → gravando em {saida}")
+    print(f"Lendo {ent} e gravando em {saida}")
     for etapa in (preparar_atrativos, preparar_ocupacao, preparar_capacidade, preparar_cits,
                   preparar_procedencia, preparar_disque, preparar_estrada_real, preparar_pedagogico):
         try:
             etapa(ent, saida)
         except FileNotFoundError as e:   # ex.: rodou só alguns anos e a série não existe ainda
-            print(f"  — {etapa.__name__}: pulado, falta o arquivo de origem {Path(e.filename).name}")
+            print(f"  {etapa.__name__}: pulado, falta o arquivo de origem {Path(e.filename).name}")
         except KeyError as e:
-            print(f"  — {etapa.__name__}: pulado, os anos extraídos não têm a coluna {e}")
+            print(f"  {etapa.__name__}: pulado, os anos extraídos não têm a coluna {e}")
     print("Pronto.")
 
 
