@@ -1,23 +1,20 @@
 """
-Prepara a base de dados do dashboard a partir dos datasets extraídos dos PDFs
-"Desempenho do Turismo de Petrópolis" (notebooks do Google Colab).
+Gera a base usada pelo painel (pasta data/) a partir dos CSVs extraídos dos relatórios
+"Desempenho do Turismo de Petrópolis".
 
 Uso:
-    python scripts/preparar_dados.py --entrada /caminho/para/datasets --saida data
+    python scripts/preparar_dados.py --entrada <pasta datasets> --saida data
 
-A pasta de entrada é a mesma gerada pelos notebooks
-(MyDrive/UCP_turismo/datasets), com as subpastas `consolidado/` e `2015/` … `2025/`.
-A saída são CSVs "limpos" (separador vírgula, decimal ponto, UTF-8) lidos pelo app.
+A pasta de entrada tem a subpasta consolidado/ e uma subpasta por ano (2015/, 2016/, ...).
+A saída são CSVs com separador vírgula e decimal ponto.
 
-O que este script faz, além de copiar:
-  * padroniza nomes de atrativos, países, estados e tipos de hospedagem;
-  * classifica os atrativos (histórico-cultural, natural, entretenimento cultural);
-  * monta a visitação ANUAL usando, nesta ordem de preferência:
-      1. total publicado no relatório em texto (2023 – Gráfico 1; 2025 – Tabela 1),
-      2. total publicado lido por OCR (2022 – Quadro 1),
-      3. soma dos meses disponíveis;
-  * marca valores lidos por OCR cuja soma não bateu com o total (`ocr_confere`);
-  * acrescenta séries que estavam só nas pastas anuais (2015–2016, 2025).
+Principais tratamentos:
+  - padroniza nomes de atrativos, países, estados e tipos de hospedagem;
+  - classifica os atrativos (histórico-cultural, natural, entretenimento cultural);
+  - define a visitação anual de cada atrativo: total publicado em texto, depois total lido
+    por OCR e, por último, a soma dos meses;
+  - marca os valores lidos por OCR que não conferem com o total (ocr_confere);
+  - inclui séries que só existem nas pastas anuais (2015-2016 e relatórios só com totais anuais).
 """
 from __future__ import annotations
 
@@ -31,7 +28,7 @@ import pandas as pd
 MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
 
 
-# --------------------------------------------------------------------------- util
+# Util
 def ler(caminho: Path) -> pd.DataFrame:
     return pd.read_csv(caminho, sep=";", decimal=",", encoding="utf-8-sig")
 
@@ -46,7 +43,7 @@ def salvar(df: pd.DataFrame, saida: Path, nome: str) -> None:
     print(f"  {nome:<34} {len(df):>5} linhas")
 
 
-# ---------------------------------------------------------------- atrativos
+# Atrativos
 def canon_atrativo(nome: str) -> str | None:
     s = sem_acento(nome)
     s = re.sub(r"[^a-z0-9 /&]", " ", s)
@@ -97,7 +94,7 @@ NATURAIS = {
 }
 ENTRETENIMENTO = {"Som e Luz", "Um Sarau Imperial", "Concertos/Recitais – Casa de Petrópolis"}
 
-# Atrativos presentes em TODOS os anos (2015–2025): base comparável da visão geral.
+# Atrativos presentes em todos os anos (2015-2025): base comparável do Panorama.
 ANCORAS = [
     "Museu Imperial", "Museu Casa de Santos Dumont", "Centro de Experiência Cervejeira Bohemia",
     "Museu Casa do Colono", "Centro Cultural Estação Nogueira", "Casa Stefan Zweig",
@@ -116,7 +113,7 @@ def preparar_atrativos(ent: Path, saida: Path) -> pd.DataFrame:
     m = ler(ent / "consolidado" / "visitacao_atrativos_mensal.csv")
     m["atrativo"] = m["atrativo"].map(lambda x: canon_atrativo(x) or x)
 
-    # 2023: a sede Teresópolis do PARNASO ficou fora da consolidação (OCR leu "Teresdpolis").
+    # 2023: garante a sede Teresópolis do PARNASO, caso a consolidação não a tenha incluído.
     f23 = ent / "2023" / "atrativos_naturais_mensal_ocr.csv"
     nat23 = ler(f23) if f23.exists() else pd.DataFrame(columns=["indicador"])
     nat23["atrativo"] = nat23["indicador"].map(canon_atrativo)
@@ -126,8 +123,8 @@ def preparar_atrativos(ent: Path, saida: Path) -> pd.DataFrame:
         ter["mes"] = ter["mes_num"].map(lambda n: MESES[int(n) - 1])
         m = pd.concat([m, ter[m.columns.intersection(ter.columns)]], ignore_index=True)
 
-    # PARNASO: o total das 3 sedes tem de ser a soma das sedes, mês a mês. Onde a regra vale,
-    # os valores lidos por OCR ficam confirmados; onde não vale, todos os 4 ficam como não conferidos.
+    # PARNASO: o total das 3 sedes deve ser a soma das sedes em cada mês. Quando bate,
+    # os valores lidos por OCR são confirmados; quando não bate, ficam como não conferidos.
     sedes = ["PARNASO – sede Teresópolis", "PARNASO – sede Guapimirim", "PARNASO – sede Petrópolis"]
     p = m[m["atrativo"].str.startswith("PARNASO")].pivot_table(index=["ano", "mes_num"], columns="atrativo",
                                                                values="visitantes", aggfunc="first")
@@ -149,7 +146,7 @@ def preparar_atrativos(ent: Path, saida: Path) -> pd.DataFrame:
            "fonte_relatorio", "fonte_pagina", "fonte_tabela"]].sort_values(["ano", "atrativo", "mes_num"])
     salvar(m, saida, "atrativos_mensal.csv")
 
-    # ---- anual
+    # Anual
     g = (m.dropna(subset=["visitantes"])
          .groupby(["ano", "atrativo"])
          .agg(visitantes=("visitantes", "sum"),
@@ -161,7 +158,7 @@ def preparar_atrativos(ent: Path, saida: Path) -> pd.DataFrame:
     g["confere"] = g["meses_ocr_nao_conferidos"].map(lambda n: "não" if n else "sim")
 
     oficiais = []
-    # 2022 – Quadro 1 (OCR, coluna Total)
+    # 2022, Quadro 1 (OCR, coluna Total)
     f = ent / "2022" / "indicadores_mensal_ocr.csv"
     w22 = ler(f) if f.exists() else pd.DataFrame()
     for _, r in w22.iterrows():
@@ -171,7 +168,7 @@ def preparar_atrativos(ent: Path, saida: Path) -> pd.DataFrame:
                                  origem_valor="total publicado (OCR)",
                                  confere="sim" if str(r["ocr_confere"]) == "True" else "não",
                                  fonte_pagina=r["fonte_pagina"], fonte_tabela=r["fonte_tabela"]))
-    # 2023 – Gráfico 1 (texto)
+    # 2023, Gráfico 1 (texto)
     f = ent / "2023" / "atrativos_total_anual.csv"
     g23 = ler(f) if f.exists() else pd.DataFrame()
     for _, r in g23.iterrows():
@@ -180,18 +177,20 @@ def preparar_atrativos(ent: Path, saida: Path) -> pd.DataFrame:
             oficiais.append(dict(ano=2023, atrativo=a, visitantes=float(r["visitantes"]),
                                  origem_valor="total publicado", confere="sim",
                                  fonte_pagina=r["fonte_pagina"], fonte_tabela=r["fonte_tabela"]))
-    # 2025 – Tabela 1 (texto; o relatório de 2025 só traz totais anuais)
-    f = ent / "2025" / "indicadores_anual.csv"
-    i25 = ler(f) if f.exists() else pd.DataFrame(columns=["indicador", "total_anual"])
-    for _, r in i25.dropna(subset=["total_anual"]).iterrows():
-        a = canon_atrativo(r["indicador"])
-        if a:
-            oficiais.append(dict(ano=2025, atrativo=a, visitantes=float(r["total_anual"]),
-                                 origem_valor="total publicado", confere="sim",
-                                 fonte_pagina=r["fonte_pagina"], fonte_tabela=r["fonte_tabela"]))
+    # Relatórios só com totais anuais (2025, Tabela 1, e os seguintes no mesmo formato)
+    anos_so_anuais = []
+    for f in sorted(ent.glob("20[0-9][0-9]/indicadores_anual.csv")):
+        ano_f = int(f.parent.name)
+        anos_so_anuais.append(ano_f)
+        for _, r in ler(f).dropna(subset=["total_anual"]).iterrows():
+            a = canon_atrativo(r["indicador"])
+            if a and float(r["total_anual"]) > 0:
+                oficiais.append(dict(ano=ano_f, atrativo=a, visitantes=float(r["total_anual"]),
+                                     origem_valor="total publicado", confere="sim",
+                                     fonte_pagina=r["fonte_pagina"], fonte_tabela=r["fonte_tabela"]))
     of = pd.DataFrame(oficiais, columns=["ano", "atrativo", "visitantes", "origem_valor", "confere",
                                          "fonte_pagina", "fonte_tabela"])
-    of = of[~((of["ano"] == 2025) & (of["visitantes"] <= 0))]
+    of = of[of["visitantes"] > 0]
 
     base = g.set_index(["ano", "atrativo"])
     of = of.set_index(["ano", "atrativo"])
@@ -199,7 +198,8 @@ def preparar_atrativos(ent: Path, saida: Path) -> pd.DataFrame:
     base = base.drop(index=of.index.intersection(base.index))
     anual = pd.concat([base, of]).reset_index()
     anual["meses_com_dado"] = [meses.get((a, t)) for a, t in zip(anual["ano"], anual["atrativo"])]
-    anual.loc[anual["ano"] == 2025, "meses_com_dado"] = None
+    sem_meses = [a for a in anos_so_anuais if not (m["ano"] == a).any()]
+    anual.loc[anual["ano"].isin(sem_meses), "meses_com_dado"] = None
     anual = anual[anual["visitantes"].notna()]
     anual = anual[~((anual["origem_valor"] == "soma dos meses") & (anual["meses_com_dado"] == 0))]
     anual["categoria"] = anual["atrativo"].map(categoria)
@@ -214,7 +214,7 @@ def preparar_atrativos(ent: Path, saida: Path) -> pd.DataFrame:
     return anual
 
 
-# --------------------------------------------------------------- hospedagem
+# Hospedagem
 def preparar_ocupacao(ent: Path, saida: Path) -> None:
     o = ler(ent / "consolidado" / "ocupacao_hoteleira_mensal.csv")
     o["mes_num"] = o["mes_num"].astype(int)
@@ -239,7 +239,7 @@ def preparar_capacidade(ent: Path, saida: Path) -> None:
     salvar(r, saida, "capacidade_regiao.csv")
 
 
-# -------------------------------------------------------------- procedência
+# Procedência
 def preparar_cits(ent: Path, saida: Path) -> None:
     linhas = []
     for pasta in sorted(p for p in ent.iterdir() if p.is_dir() and p.name.isdigit()):
@@ -314,7 +314,7 @@ def _procedencia_paises(ent: Path, saida: Path) -> None:
     salvar(p.sort_values(["ano", "turistas"], ascending=[True, False]), saida, "procedencia_paises.csv")
 
 
-# ------------------------------------------------------------- atendimento
+# Atendimento
 def preparar_disque(ent: Path, saida: Path) -> None:
     d = ler(ent / "consolidado" / "disque_turismo_mensal.csv")
     d = d[d["canal"].isin(["0800", "WhatsApp"])].copy()
@@ -332,14 +332,16 @@ def preparar_disque(ent: Path, saida: Path) -> None:
             t = ler(f)
             extra.append(dict(ano=ano, canal="Telefone (0800)", atendimentos=float(t[f"v{ano}"].iloc[0]),
                               origem_valor="total publicado"))
-    f = ent / "2025" / "indicadores_anual.csv"
-    i25 = ler(f) if f.exists() else pd.DataFrame(columns=["indicador", "total_anual"])
-    for _, r in i25.iterrows():
-        k = sem_acento(r["indicador"])
-        if "disque" in k and "0800" in k:
-            extra.append(dict(ano=2025, canal="Telefone (0800)", atendimentos=r["total_anual"], origem_valor="total publicado"))
-        elif "disque" in k and "whats" in k:
-            extra.append(dict(ano=2025, canal="WhatsApp", atendimentos=r["total_anual"], origem_valor="total publicado"))
+    for f in sorted(ent.glob("20[0-9][0-9]/indicadores_anual.csv")):   # relatórios só com totais anuais
+        ano_f = int(f.parent.name)
+        if (d["ano"] == ano_f).any():
+            continue
+        for _, r in ler(f).iterrows():
+            k = sem_acento(r["indicador"])
+            if "disque" in k and "0800" in k:
+                extra.append(dict(ano=ano_f, canal="Telefone (0800)", atendimentos=r["total_anual"], origem_valor="total publicado"))
+            elif "disque" in k and "whats" in k:
+                extra.append(dict(ano=ano_f, canal="WhatsApp", atendimentos=r["total_anual"], origem_valor="total publicado"))
     a = pd.concat([pd.DataFrame(extra), a], ignore_index=True).sort_values(["ano", "canal"])
     a["atendimentos"] = a["atendimentos"].round().astype("Int64")
     salvar(a, saida, "disque_turismo_anual.csv")
@@ -372,9 +374,9 @@ def preparar_pedagogico(ent: Path, saida: Path) -> None:
     salvar(t, saida, "turismo_pedagogico.csv")
 
 
-# -------------------------------------------------------------------- main
+# Main
 def executar(entrada, saida) -> None:
-    """Gera a base analítica (camada ouro) a partir da pasta datasets/."""
+    """Gera a base do painel a partir da pasta datasets/."""
     ent, saida = Path(entrada), Path(saida)
     saida.mkdir(parents=True, exist_ok=True)
     print(f"Lendo {ent} → gravando em {saida}")
