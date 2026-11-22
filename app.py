@@ -1,8 +1,6 @@
-"""
-Painel do Turismo de Petrópolis — Projeto de Extensão (UCP).
+"""Painel do Turismo de Petrópolis - Projeto de Extensão (UCP).
 
-Executar localmente:   streamlit run app.py
-Publicar:              ver README.md (GitHub + Streamlit Community Cloud)
+Para rodar: streamlit run app.py
 """
 import streamlit as st
 
@@ -13,7 +11,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-from lib import estilo  # noqa: E402  (precisa vir depois do set_page_config)
+from lib import estilo  # noqa: E402 - importado depois do set_page_config
 
 estilo.css()
 

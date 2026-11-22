@@ -3,6 +3,8 @@
 Dashboard interativo (Streamlit + Plotly) com os dados extraídos dos relatórios anuais
 **Desempenho do Turismo de Petrópolis** (2015–2025). Projeto de Extensão — UCP.
 
+Acesse: https://painel-turismo-petropolis.streamlit.app
+
 ## O que tem no painel
 
 | Página | Conteúdo |
@@ -19,16 +21,16 @@ Todo gráfico tem a versão em tabela logo abaixo, com botão para baixar o CSV 
 ## Estrutura
 
 ```
-painel_turismo_petropolis/
-├── app.py                  ← ponto de entrada (navegação)
-├── paginas/                ← uma página por arquivo
+painel-turismo-petropolis/
+├── app.py ← ponto de entrada (navegação)
+├── paginas/ ← uma página por arquivo
 ├── lib/
-│   ├── dados.py            ← leitura dos CSVs (com cache)
-│   └── estilo.py           ← cores, formatação pt-BR e funções de gráfico
-├── data/                   ← CSVs limpos usados pelo app
+│ ├── dados.py ← leitura dos CSVs (com cache)
+│ └── estilo.py ← cores, formatação pt-BR e funções de gráfico
+├── data/ ← CSVs limpos usados pelo app
 ├── scripts/
-│   └── preparar_dados.py   ← gera data/ a partir da pasta datasets (o notebook de ETL usa o mesmo script)
-├── .streamlit/config.toml  ← tema
+│ └── preparar_dados.py ← gera data/ a partir da pasta datasets (o notebook de ETL usa o mesmo script)
+├── .streamlit/config.toml ← tema
 └── requirements.txt
 ```
 
@@ -37,12 +39,12 @@ painel_turismo_petropolis/
 Requer Python 3.10 a 3.12.
 
 ```bash
-cd painel_turismo_petropolis
+git clone https://github.com/vitoregp/painel-turismo-petropolis.git
+cd painel-turismo-petropolis
 python -m venv .venv
-# Windows: .venv\Scripts\activate    |   macOS/Linux: source .venv/bin/activate
+# Windows: .venv\Scripts\activate | macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
 O painel abre em `http://localhost:8501`.
-
