@@ -46,9 +46,3 @@ streamlit run app.py
 
 O painel abre em `http://localhost:8501`.
 
-
-## Personalizar
-
-* Cores e fontes: `lib/estilo.py` (paleta categórica de 8 cores em ordem fixa, validada para daltonismo) e
-  `.streamlit/config.toml`.
-* Novas páginas: crie `paginas/minha_pagina.py` e registre em `app.py` com `st.Page(...)`.
